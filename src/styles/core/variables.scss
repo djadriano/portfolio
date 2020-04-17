@@ -1,0 +1,35 @@
+// Sass / maps
+// ----------------------------------------------------------
+
+$font-size: (
+  'smallest': (12, 14),
+  'small': (18, 24),
+  'medium': (24, 40),
+  'huge': (36, 72)
+);
+
+$colors: (
+  'gray-light': #ECECEC,
+  'gray-dark': #8C8C8C,
+  'white': #FFF,
+  'black': #000
+);
+
+$base-font-size: 62.5%;
+
+
+// Static Custom Properties
+// ----------------------------------------------------------
+
+:root {
+  --base-font-size: $base-font-size;
+  --font-default: 'Arial', sans-serif;
+
+  @each $name, $value in $colors {
+    --color-#{$name}: #{$value};
+  }
+
+  font-family: var(--font-default);
+  font-size: var(--base-font-size);
+  line-height: 1.4;
+}

@@ -1,4 +1,5 @@
 <script>
+  import './styles/index.scss';
   import { Router } from '@sveltech/routify';
   import { routes } from '@sveltech/routify/tmp/routes';
 </script>
