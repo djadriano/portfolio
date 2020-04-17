@@ -6,6 +6,7 @@ import autoPreprocess from 'svelte-preprocess';
 import alias from '@rollup/plugin-alias';
 import { terser } from 'rollup-plugin-terser';
 import { routify } from '@sveltech/routify';
+import postcss from 'rollup-plugin-postcss';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -53,6 +54,10 @@ export default {
         importee === 'svelte' || importee.startsWith('svelte/'),
     }),
     commonjs(),
+
+    postcss({
+      extract: true
+    }),
 
     // In dev mode, call `npm run start` once
     // the bundle has been generated
