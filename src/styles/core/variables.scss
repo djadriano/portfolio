@@ -11,7 +11,8 @@ $font-size: (
   'smallest': (12, 14),
   'small': (18, 24),
   'medium': (24, 40),
-  'huge': (36, 72)
+  'huge': (36, 72),
+  'logo': (30, 40)
 );
 
 $colors: (
@@ -38,6 +39,8 @@ $spaces: (
   --base-font-size: #{$base-font-size};
   --base-space: 0.8;
   --font-default: 'Arial', sans-serif;
+  --z-index-small: 10;
+  --z-index-medium: 20;
 
   @each $name, $value in $colors {
     --color-#{$name}: #{$value};

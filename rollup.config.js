@@ -7,6 +7,7 @@ import alias from '@rollup/plugin-alias';
 import { terser } from 'rollup-plugin-terser';
 import { routify } from '@sveltech/routify';
 import postcss from 'rollup-plugin-postcss';
+import json from '@rollup/plugin-json';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -31,7 +32,7 @@ export default {
     }),
 
     routify({
-      singleBuild: production
+      singleBuild: production,
     }),
 
     alias({
@@ -54,10 +55,11 @@ export default {
         importee === 'svelte' || importee.startsWith('svelte/'),
     }),
     commonjs(),
+    json(),
 
     postcss({
       extract: 'public/build/global.css',
-      minimize: production
+      minimize: production,
     }),
 
     // In dev mode, call `npm run start` once
