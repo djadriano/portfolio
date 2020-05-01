@@ -56,7 +56,8 @@ export default {
     commonjs(),
 
     postcss({
-      extract: true
+      extract: 'public/build/global.css',
+      minimize: production
     }),
 
     // In dev mode, call `npm run start` once
