@@ -1,6 +1,6 @@
 <script>
-import Nav from '@components/Nav.svelte';
+  import { Header, Data } from '@components/Header/Index.js';
 </script>
 
-<Nav />
+<Header {...Data} />
 <slot />
