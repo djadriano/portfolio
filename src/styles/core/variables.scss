@@ -41,6 +41,7 @@ $spaces: (
   --font-default: 'Arial', sans-serif;
   --z-index-small: 10;
   --z-index-medium: 20;
+  --header-height: auto;
 
   @each $name, $value in $colors {
     --color-#{$name}: #{$value};

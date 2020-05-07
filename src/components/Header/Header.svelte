@@ -33,11 +33,32 @@
 </style>
 
 <script>
+  import { onMount } from 'svelte';
   import { Link } from '@components/Link/Index.js';
   export let links;
+
+  let headerEl;
+
+  onMount(() => {
+    registerEvents();
+    setHeight();
+  });
+
+  function registerEvents() {
+    window.addEventListener('resize', setHeight);
+  }
+
+  function setHeight() {
+    const root = document.documentElement;
+
+    root.style.setProperty(
+      '--header-height',
+      `${headerEl.getBoundingClientRect().height}px`
+    );
+  }
 </script>
 
-<header>
+<header bind:this="{headerEl}">
   <nav>
     <div>
       <h1 class="fs fs--logo">
