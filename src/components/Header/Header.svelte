@@ -33,6 +33,7 @@
 </style>
 
 <script>
+  import { Link } from '@components/Link/Index.js';
   export let links;
 </script>
 
@@ -51,12 +52,7 @@
     <ul>
       {#each links as link}
         <li>
-          <a
-            href="{link.url}"
-            target="_blank"
-            class="fs fs--smallest color color--black">
-            {link.name}
-          </a>
+          <Link href="{link.url}" target="_blank">{link.name}</Link>
         </li>
       {/each}
     </ul>

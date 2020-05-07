@@ -1,8 +1,8 @@
 <style>
-p {
-  margin: var(--spaces-s);
-  border: 1px solid;
-}
+  p {
+    margin: var(--spaces-s);
+    border: 1px solid;
+  }
 </style>
 
 <p class="fs fs--smallest color color--black">Smallest text</p>
