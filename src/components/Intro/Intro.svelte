@@ -20,7 +20,7 @@
 </style>
 
 <section>
-  <h2 class="fs fs--huge color color--gray-dark">
+  <h2 class="fs fs--huge color color--gray-dark u-title">
     I’m a multidisciplinary developer with more than 16 years of experience,
     focused on UX, Code and Design
   </h2>

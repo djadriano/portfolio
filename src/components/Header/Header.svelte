@@ -1,12 +1,8 @@
-<style>
+<style lang="scss">
   header {
     z-index: var(--z-index-medium);
     position: relative;
     padding: var(--spaces-s);
-  }
-
-  h1 {
-    font-weight: 600;
   }
 
   nav {
@@ -20,7 +16,6 @@
     position: fixed;
     right: var(--spaces-s);
     top: var(--spaces-s);
-    list-style: none;
   }
 
   li {
@@ -62,7 +57,7 @@
   <nav>
     <div>
       <h1 class="fs fs--logo">
-        <a href="/" class="color color--black">AKF</a>
+        <a href="/" class="color color--black u-title">AKF</a>
       </h1>
       <p class="fs fs--smallest">
         Frontend Developer
@@ -70,7 +65,7 @@
         Amsterdam, Netherlands
       </p>
     </div>
-    <ul>
+    <ul class="u-reset-list">
       {#each links as link}
         <li>
           <Link href="{link.url}" target="_blank">{link.name}</Link>
