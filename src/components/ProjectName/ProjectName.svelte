@@ -17,14 +17,22 @@
 </style>
 
 <script>
+  import { Link } from '@components/Link/Index.js';
+
   export let title = 'Works';
   export let subtitle = null;
   export let date = null;
   export let color = 'gray-dark';
+
+  const { link, ...rest } = $$restProps;
 </script>
 
 <div>
-  <h2 class="fs fs--huge u-title color color--{color}">{title}</h2>
+  <h2 class="fs fs--huge u-title color color--{color}">
+    {#if link}
+      <Link href="{link}" fontSize="huge" {...rest}>{title}</Link>
+    {:else}{title}{/if}
+  </h2>
   {#if subtitle}
     <p class="fs fs--smallest">
       {subtitle}

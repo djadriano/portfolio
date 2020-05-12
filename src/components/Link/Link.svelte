@@ -4,6 +4,7 @@
     --color-hover: var(--color-gray-dark);
 
     color: var(--color);
+    font-weight: inherit;
   }
 
   a:hover {

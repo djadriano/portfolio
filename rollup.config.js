@@ -41,6 +41,7 @@ export default {
         '@pages': './src/pages',
         '@stores': './src/stores',
         '@utils': './src/utils',
+        '@data': './src/data',
       },
     }),
 
