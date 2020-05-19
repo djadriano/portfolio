@@ -17,6 +17,6 @@
   export let date = null;
 </script>
 
-<aside>
+<aside class="u-project-name">
   <ProjectName {title} {subtitle} {date} />
 </aside>
