@@ -1,9 +1,4 @@
 <style>
-  div {
-    display: flex;
-    flex-direction: column;
-  }
-
   h2 {
     order: 2;
   }
@@ -27,19 +22,17 @@
   const { link, ...rest } = $$restProps;
 </script>
 
-<div>
-  <h2 class="fs fs--huge u-title color color--{color}">
-    {#if link}
-      <Link href="{link}" fontSize="huge" {...rest}>{title}</Link>
-    {:else}{title}{/if}
-  </h2>
-  {#if subtitle}
-    <p class="fs fs--smallest">
-      {subtitle}
-      {#if date}
-        -
-        <time>{date}</time>
-      {/if}
-    </p>
-  {/if}
-</div>
+<h2 class="fs fs--huge u-title color color--{color}">
+  {#if link}
+    <Link href="{link}" fontSize="huge" {...rest}>{title}</Link>
+  {:else}{title}{/if}
+</h2>
+{#if subtitle}
+  <p class="fs fs--smallest">
+    {subtitle}
+    {#if date}
+      -
+      <time>{date}</time>
+    {/if}
+  </p>
+{/if}

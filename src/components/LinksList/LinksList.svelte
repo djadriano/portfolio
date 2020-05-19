@@ -21,7 +21,7 @@
 
 <ul class="u-reset-list">
   {#each links as item}
-    <li>
+    <li class="u-project-name">
       <ProjectName
         title="{item.name}"
         subtitle="{item.company}"
