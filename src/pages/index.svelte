@@ -10,7 +10,7 @@
   import { Intro } from '@components/Intro/Index.js';
   import { PageTitle } from '@components/PageTitle/Index.js';
   import { LinksList } from '@components/LinksList/Index.js';
-  import CasesData from '@data/cases.json';
+  import CasesData from '@data/cases/list.json';
   import PersonalData from '@data/personal.json';
 </script>
 
