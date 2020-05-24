@@ -19,7 +19,7 @@
   export let date = null;
   export let color = 'gray-dark';
 
-  const { link, ...rest } = $$restProps;
+  $: ({ link, ...rest } = $$restProps);
 </script>
 
 <h2 class="fs fs--huge u-title color color--{color}">

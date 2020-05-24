@@ -23,7 +23,7 @@
   export let color = 'black';
   export let colorHover = 'gray-dark';
 
-  const { href, ...rest } = $$restProps;
+  $: ({ href, ...rest } = $$restProps);
 </script>
 
 <a

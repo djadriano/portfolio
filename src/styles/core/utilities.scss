@@ -20,3 +20,19 @@
   display: flex;
   flex-direction: column;
 }
+
+#u-routify-app {
+  height: 100%;
+}
+
+.u-case-block {
+  margin: var(--spaces-m) 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
