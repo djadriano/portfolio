@@ -17,6 +17,7 @@
     "editor.formatOnSave": true
   },
   "eslint.validate": [
-    "javascript"
+    "javascript",
+    "svelte",
   ]
 }
