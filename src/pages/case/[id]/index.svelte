@@ -1,6 +1,6 @@
 <style>
   section {
-    padding: var(--spaces-s);
+    padding: var(--spaces-l) var(--spaces-s);
   }
 </style>
 

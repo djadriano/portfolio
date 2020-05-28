@@ -1,3 +1,17 @@
+<style>
+  p {
+    --width: auto;
+
+    max-width: var(--width);
+  }
+
+  @media screen and (min-width: 1200px) {
+    p {
+      --width: 60%;
+    }
+  }
+</style>
+
 <script>
   export let content;
 </script>
