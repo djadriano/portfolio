@@ -6,13 +6,13 @@
 
 <script>
   import { params } from '@sveltech/routify';
-  import { PageTitle } from '@components/PageTitle/Index.js';
-  import { Title } from '@components/Cases/Title/Index.js';
-  import { Text } from '@components/Cases/Text/Index.js';
-  import { Image } from '@components/Cases/Image/Index.js';
-  import { List } from '@components/Cases/List/Index.js';
-  import { Video } from '@components/Cases/Video/Index.js';
-  import { Footer } from '@components/Cases/Footer/Index.js';
+  import PageTitle from '@components/PageTitle/PageTitle.svelte';
+  import Title from '@components/Cases/Title/Title.svelte';
+  import Text from '@components/Cases/Text/Text.svelte';
+  import Image from '@components/Cases/Image/Image.svelte';
+  import List from '@components/Cases/List/List.svelte';
+  import Video from '@components/Cases/Video/Video.svelte';
+  import Footer from '@components/Cases/Footer/Footer.svelte';
   import CasesData from '@data/cases/list.json';
 
   export let id;

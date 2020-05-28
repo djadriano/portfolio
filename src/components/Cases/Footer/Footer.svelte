@@ -6,7 +6,7 @@
 </style>
 
 <script>
-  import { ProjectName } from '@components/ProjectName/Index.js';
+  import ProjectName from '@components/ProjectName/ProjectName.svelte';
 
   export let name;
   export let permalink;

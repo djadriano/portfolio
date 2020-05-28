@@ -10,7 +10,7 @@
 </style>
 
 <script>
-  import { ProjectName } from '@components/ProjectName/Index.js';
+  import ProjectName from '@components/ProjectName/ProjectName.svelte';
 
   export let title = 'Works';
   export let subtitle = null;

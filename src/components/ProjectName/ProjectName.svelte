@@ -12,7 +12,7 @@
 </style>
 
 <script>
-  import { Link } from '@components/Link/Index.js';
+  import Link from '@components/Link/Link.svelte';
 
   export let title = 'Works';
   export let subtitle = null;

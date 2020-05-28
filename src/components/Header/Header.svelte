@@ -29,7 +29,7 @@
 
 <script>
   import { onMount } from 'svelte';
-  import { Link } from '@components/Link/Index.js';
+  import Link from '@components/Link/Link.svelte';
   export let links;
 
   let headerEl;
