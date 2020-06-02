@@ -249,6 +249,10 @@
         {
           "type": "video",
           "url": "https://www.youtube.com/embed/DrmjoFxUwb4"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/embed/1XGlUZhpCuQ"
         }
       ]
     },
@@ -577,13 +581,18 @@
         {
           "type": "image",
           "common": {
-            "src": "agora/image-01-mobile.jpg",
+            "src": "nike-vem-junto/image-01-mobile.jpg",
             "alt": ""
           },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-01-desktop.jpg",
+              "src": "nike-vem-junto/image-01-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "nike-vem-junto/image-01-tablet.jpg",
               "alt": ""
             }
           ]
@@ -603,13 +612,18 @@
         {
           "type": "image",
           "common": {
-            "src": "agora/image-02-mobile.jpg",
+            "src": "nike-vem-junto/image-02-mobile.jpg",
             "alt": ""
           },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-02-desktop.jpg",
+              "src": "nike-vem-junto/image-02-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "nike-vem-junto/image-02-tablet.jpg",
               "alt": ""
             }
           ]
@@ -617,13 +631,18 @@
         {
           "type": "image",
           "common": {
-            "src": "agora/image-03-mobile.jpg",
+            "src": "nike-vem-junto/image-03-mobile.jpg",
             "alt": ""
           },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-03-desktop.jpg",
+              "src": "nike-vem-junto/image-03-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "nike-vem-junto/image-03-tablet.jpg",
               "alt": ""
             }
           ]
@@ -631,20 +650,48 @@
         {
           "type": "image",
           "common": {
-            "src": "agora/image-04-mobile.jpg",
+            "src": "nike-vem-junto/image-04-mobile.jpg",
             "alt": ""
           },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-04-desktop.jpg",
+              "src": "nike-vem-junto/image-04-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "nike-vem-junto/image-04-tablet.jpg",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "common": {
+            "src": "nike-vem-junto/image-05-mobile.jpg",
+            "alt": ""
+          },
+          "sizes": [
+            {
+              "media": "min-width: 1024px",
+              "src": "nike-vem-junto/image-05-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "nike-vem-junto/image-05-tablet.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "video",
-          "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
+          "url": "https://www.youtube.com/embed/oeq2dbUBMdg"
+        },
+        {
+          "type": "video",
+          "url": "https://player.vimeo.com/video/246258103"
         }
       ]
     },
@@ -944,13 +991,13 @@
         {
           "type": "image",
           "common": {
-            "src": "agora/image-01-mobile.jpg",
+            "src": "google-expert/image-01-mobile.jpg",
             "alt": ""
           },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-01-desktop.jpg",
+              "src": "google-expert/image-01-desktop.jpg",
               "alt": ""
             }
           ]
@@ -970,13 +1017,13 @@
         {
           "type": "image",
           "common": {
-            "src": "agora/image-02-mobile.jpg",
+            "src": "google-expert/image-02-mobile.jpg",
             "alt": ""
           },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-02-desktop.jpg",
+              "src": "google-expert/image-02-desktop.jpg",
               "alt": ""
             }
           ]
@@ -984,34 +1031,16 @@
         {
           "type": "image",
           "common": {
-            "src": "agora/image-03-mobile.jpg",
+            "src": "google-expert/image-03-mobile.jpg",
             "alt": ""
           },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-03-desktop.jpg",
+              "src": "google-expert/image-03-desktop.jpg",
               "alt": ""
             }
           ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-04-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
-            {
-              "media": "min-width: 1024px",
-              "src": "agora/image-04-desktop.jpg",
-              "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "video",
-          "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
         }
       ]
     },

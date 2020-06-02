@@ -1,6 +1,6 @@
 <style>
   figure {
-    padding: 5%;
+    padding: var(--spaces-xs);
     border: 1px solid var(--color-gray-light);
   }
 
