@@ -34,14 +34,20 @@
         },
         {
           "type": "list",
-          "title": "Stack",
+          "title": "Awards",
           "items": [
-            "Webpack 4",
-            "React",
-            "React Router",
-            "Sass/CSS Custom Properties",
-            "Workbox for PWA stuffs",
-            "TweenMax for animations"
+            {
+              "text": "Cannes Lions",
+              "href": "http://eurodance.com.br"
+            },
+            {
+              "text": "Effie Awards",
+              "href": "http://eurodance.com.br"
+            },
+            {
+              "text": "Webpack 4",
+              "href": "http://eurodance.com.br"
+            }
           ]
         },
         {
@@ -127,12 +133,9 @@
           "type": "list",
           "title": "Stack:",
           "items": [
-            "Webpack 4",
-            "React",
-            "React Router",
-            "Sass/CSS Custom Properties",
-            "Workbox for PWA stuffs",
-            "TweenMax for animations"
+            {
+              "text": "Webpack 4"
+            }
           ]
         },
         {
@@ -536,12 +539,9 @@
           "type": "list",
           "title": "Stack:",
           "items": [
-            "Webpack 4",
-            "React",
-            "React Router",
-            "Sass/CSS Custom Properties",
-            "Workbox for PWA stuffs",
-            "TweenMax for animations"
+            {
+              "text": "Webpack 4"
+            }
           ]
         },
         {
@@ -689,12 +689,9 @@
           "type": "list",
           "title": "Stack:",
           "items": [
-            "Webpack 4",
-            "React",
-            "React Router",
-            "Sass/CSS Custom Properties",
-            "Workbox for PWA stuffs",
-            "TweenMax for animations"
+            {
+              "text": "Webpack 4"
+            }
           ]
         },
         {
@@ -779,12 +776,9 @@
           "type": "list",
           "title": "Stack:",
           "items": [
-            "Webpack 4",
-            "React",
-            "React Router",
-            "Sass/CSS Custom Properties",
-            "Workbox for PWA stuffs",
-            "TweenMax for animations"
+            {
+              "text": "Webpack 4"
+            }
           ]
         },
         {
@@ -866,12 +860,9 @@
           "type": "list",
           "title": "Stack:",
           "items": [
-            "Webpack 4",
-            "React",
-            "React Router",
-            "Sass/CSS Custom Properties",
-            "Workbox for PWA stuffs",
-            "TweenMax for animations"
+            {
+              "text": "Webpack 4"
+            }
           ]
         },
         {
@@ -942,12 +933,9 @@
           "type": "list",
           "title": "Stack:",
           "items": [
-            "Webpack 4",
-            "React",
-            "React Router",
-            "Sass/CSS Custom Properties",
-            "Workbox for PWA stuffs",
-            "TweenMax for animations"
+            {
+              "text": "Webpack 4"
+            }
           ]
         },
         {
@@ -1014,12 +1002,9 @@
           "type": "list",
           "title": "Stack:",
           "items": [
-            "Webpack 4",
-            "React",
-            "React Router",
-            "Sass/CSS Custom Properties",
-            "Workbox for PWA stuffs",
-            "TweenMax for animations"
+            {
+              "text": "Webpack 4"
+            }
           ]
         },
         {
