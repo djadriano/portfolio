@@ -7,13 +7,8 @@
       "permalink": "agora-investimentos",
       "content": [
         {
-          "type": "title",
-          "text": "A campaign website for Nike HBL on WeChat, Weibo, Tmall and Taobao."
-        },
-        {
           "type": "text",
           "content": [
-            "Àgora Investimentos text",
             "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
           ]
         },
@@ -26,6 +21,11 @@
               "alt": ""
             },
             {
+              "media": "min-width: 768px",
+              "src": "agora/image-01-tablet.jpg",
+              "alt": ""
+            },
+            {
               "media": "min-width: 320px",
               "src": "agora/image-01-mobile.jpg",
               "alt": ""
@@ -34,19 +34,13 @@
         },
         {
           "type": "list",
-          "title": "Awards",
+          "title": "Frontend Stack",
           "items": [
             {
-              "text": "Cannes Lions",
-              "href": "http://eurodance.com.br"
+              "text": "Gatsby.js"
             },
             {
-              "text": "Effie Awards",
-              "href": "http://eurodance.com.br"
-            },
-            {
-              "text": "Webpack 4",
-              "href": "http://eurodance.com.br"
+              "text": "Storybook"
             }
           ]
         },
@@ -56,6 +50,11 @@
             {
               "media": "min-width: 1024px",
               "src": "agora/image-02-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "agora/image-02-tablet.jpg",
               "alt": ""
             },
             {
@@ -74,6 +73,11 @@
               "alt": ""
             },
             {
+              "media": "min-width: 768px",
+              "src": "agora/image-03-tablet.jpg",
+              "alt": ""
+            },
+            {
               "media": "min-width: 320px",
               "src": "agora/image-03-mobile.jpg",
               "alt": ""
@@ -89,6 +93,11 @@
               "alt": ""
             },
             {
+              "media": "min-width: 768px",
+              "src": "agora/image-04-tablet.jpg",
+              "alt": ""
+            },
+            {
               "media": "min-width: 320px",
               "src": "agora/image-04-mobile.jpg",
               "alt": ""
@@ -98,6 +107,20 @@
         {
           "type": "video",
           "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
+        },
+        {
+          "type": "list",
+          "title": "Other projects",
+          "items": [
+            {
+              "text": "Ágora Simulator",
+              "href": "https://cadastro.agorainvest.com.br/simulador"
+            },
+            {
+              "text": "Ágora Register",
+              "href": "https://cadastro.agorainvest.com.br/"
+            }
+          ]
         }
       ]
     },
@@ -123,6 +146,11 @@
               "alt": ""
             },
             {
+              "media": "min-width: 768px",
+              "src": "thiago-franco/image-01-tablet.jpg",
+              "alt": ""
+            },
+            {
               "media": "min-width: 320px",
               "src": "thiago-franco/image-01-mobile.jpg",
               "alt": ""
@@ -140,28 +168,40 @@
         },
         {
           "type": "image",
-          "common": {
-            "src": "thiago-franco/image-02-desktop.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "thiago-franco/image-02-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "thiago-franco/image-02-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "thiago-franco/image-02-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "thiago-franco/image-03-desktop.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "thiago-franco/image-03-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "thiago-franco/image-03-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "thiago-franco/image-03-mobile.jpg",
               "alt": ""
             }
           ]
@@ -354,14 +394,20 @@
         },
         {
           "type": "image",
-          "common": {
-            "src": "next/image-01-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "next/image-01-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "next/image-01-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "next/image-01-mobile.jpg",
               "alt": ""
             }
           ]
@@ -378,14 +424,20 @@
         },
         {
           "type": "image",
-          "common": {
-            "src": "next/image-02-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "next/image-02-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "next/image-02-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "next/image-02-mobile.jpg",
               "alt": ""
             }
           ]
@@ -405,70 +457,100 @@
         },
         {
           "type": "image",
-          "common": {
-            "src": "next/image-03-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "next/image-03-desktop.jpg",
               "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "next/image-03-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "next/image-03-mobile.jpg",
+              "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "next/image-04-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "next/image-04-desktop.jpg",
               "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "next/image-04-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "next/image-04-mobile.jpg",
+              "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "next/image-05-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "next/image-05-desktop.jpg",
               "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "next/image-06-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
+            },
             {
-              "media": "min-width: 1024px",
-              "src": "next/image-06-desktop.jpg",
+              "media": "min-width: 768px",
+              "src": "next/image-05-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "next/image-05-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "next/image-07-mobile.jpg",
-            "alt": ""
-          },
+          "sizes": [
+            {
+              "media": "min-width: 1024px",
+              "src": "next/image-06-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "next/image-06-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "next/image-06-mobile.jpg",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "next/image-07-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "next/image-07-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "next/image-07-mobile.jpg",
               "alt": ""
             }
           ]

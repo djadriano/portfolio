@@ -10,7 +10,7 @@
   import Intro from '@components/Intro/Intro.svelte';
   import PageTitle from '@components/PageTitle/PageTitle.svelte';
   import LinksList from '@components/LinksList/LinksList.svelte';
-  import { Cases, Personal } from '@stores/stores.js';
+  import { Cases } from '@stores/stores.js';
 </script>
 
 <main>
@@ -19,10 +19,5 @@
   <section>
     <PageTitle />
     <LinksList links="{$Cases}" />
-  </section>
-
-  <section>
-    <PageTitle title="Personal" />
-    <LinksList links="{$Personal}" />
   </section>
 </main>
