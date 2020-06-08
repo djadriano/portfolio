@@ -9,72 +9,67 @@
     overflow: hidden;
   }
 
-  img {
-    transition: filter 0.5s 300ms ease-in-out;
-    display: block;
-    width: 100%;
+  @media screen and (min-width: 768px) {
+    figure {
+      min-height: 30rem;
+    }
   }
 </style>
 
 <script>
-  export let common;
   export let sizes;
 
-  let observer;
+  let srcset = [];
 
-  function lazyLoad(images) {
-    images.forEach(picture => {
-      if (picture.intersectionRatio > 0) {
-        const sources = [...picture.target.children];
-        const pictureEl = picture.target;
+  function setSourceSet(sources = [], reset = false) {
+    const imageAttr = 'data-srcset';
 
-        sources.forEach(source => {
-          if (source.hasAttribute('data-srcset')) {
-            source.setAttribute('srcset', source.getAttribute('data-srcset'));
-          } else {
-            source.setAttribute('src', source.getAttribute('data-src'));
-          }
-
-          source.addEventListener(
-            'load',
-            image => {
-              image.target.closest('picture').classList.remove('lazy-initial');
-            },
-            false
-          );
-        });
-
-        observer.unobserve(pictureEl);
-      }
-    });
+    sources
+      .filter(image => image.hasAttribute(imageAttr))
+      .map(
+        (item, i) => (srcset[i] = reset ? '' : item.getAttribute(imageAttr))
+      );
   }
 
   function setObserver(node) {
-    observer = new IntersectionObserver(lazyLoad, {
+    const observer = new IntersectionObserver(onIntersect, {
       rootMargin: '100px',
       threshold: 1.0,
     });
 
+    function onIntersect(entries = []) {
+      entries.forEach(entry => {
+        const sources = [...entry.target.children];
+        const isIntersect = entry.intersectionRatio > 0 || entry.isIntersecting;
+
+        setSourceSet(sources, !isIntersect);
+
+        if (isIntersect) observer.unobserve(node);
+      });
+    }
+
     observer.observe(node);
 
     return {
+      update() {
+        observer.observe(node);
+      },
       destroy() {
-        observer.unobserve(node);
+        observer && observer.unobserve(node);
       },
     };
   }
 </script>
 
 <figure class="u-case-block">
-  <picture use:setObserver>
-    {#each sizes as item}
+  <picture use:setObserver="{sizes}">
+    {#each sizes as item, index}
       <source
         media="({item.media})"
         data-srcset="/images/cases/{item.src}"
+        srcset="{srcset[index]}"
         alt="{item.alt}" />
     {/each}
-    {#if common}
-      <img data-src="/images/cases/{common.src}" alt="{common.alt}" />
-    {/if}
+    <img alt="" />
   </picture>
 </figure>

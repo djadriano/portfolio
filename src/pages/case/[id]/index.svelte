@@ -21,9 +21,11 @@
   let caseId;
   let nextCase;
 
-  $: id = $params.id;
-  $: caseId = $Cases.findIndex(item => item.permalink === id);
-  $: nextCase = $Cases[caseId + 1];
+  $: {
+    id = $params.id;
+    caseId = $Cases.findIndex(item => item.permalink === id);
+    nextCase = $Cases[caseId + 1];
+  }
 </script>
 
 <main>
@@ -41,7 +43,7 @@
         <Text content="{item.content}" />
       {/if}
       {#if item.type === 'image'}
-        <Image common="{item.common}" sizes="{item.sizes}" />
+        <Image sizes="{item.sizes}" />
       {/if}
       {#if item.type === 'list'}
         <List title="{item.title}" items="{item.items}" />

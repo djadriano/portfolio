@@ -14,6 +14,10 @@
   });
 </script>
 
+<svelte:head>
+  <title>AKF - {isPage.name}</title>
+</svelte:head>
+
 {#if isPage}
   <slot scoped="{isPage}" />
 {/if}

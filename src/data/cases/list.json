@@ -13,20 +13,21 @@
         {
           "type": "text",
           "content": [
-            "Development of the portfolio for Thiago Franco.",
+            "Àgora Investimentos text",
             "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-01-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "agora/image-01-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "agora/image-01-mobile.jpg",
               "alt": ""
             }
           ]
@@ -45,42 +46,45 @@
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-02-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "agora/image-02-desktop.jpg",
               "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-03-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
+            },
             {
-              "media": "min-width: 1024px",
-              "src": "agora/image-03-desktop.jpg",
+              "media": "min-width: 320px",
+              "src": "agora/image-02-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-04-mobile.jpg",
-            "alt": ""
-          },
+          "sizes": [
+            {
+              "media": "min-width: 1024px",
+              "src": "agora/image-03-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "agora/image-03-mobile.jpg",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "agora/image-04-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "agora/image-04-mobile.jpg",
               "alt": ""
             }
           ]
@@ -106,14 +110,15 @@
         },
         {
           "type": "image",
-          "common": {
-            "src": "thiago-franco/image-01-desktop.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "thiago-franco/image-01-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "thiago-franco/image-01-mobile.jpg",
               "alt": ""
             }
           ]
@@ -234,14 +239,15 @@
         },
         {
           "type": "image",
-          "common": {
-            "src": "nike-hbl/image-01-desktop.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "nike-hbl/image-01-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "nike-hbl/image-01-mobile.jpg",
               "alt": ""
             }
           ]
@@ -487,81 +493,9 @@
         {
           "type": "text",
           "content": [
-            "Development of the portfolio for Thiago Franco.",
+            "Nike voce sem limites",
             "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
           ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-01-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
-            {
-              "media": "min-width: 1024px",
-              "src": "agora/image-01-desktop.jpg",
-              "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "title": "Stack:",
-          "items": [
-            "Webpack 4",
-            "React",
-            "React Router",
-            "Sass/CSS Custom Properties",
-            "Workbox for PWA stuffs",
-            "TweenMax for animations"
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-02-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
-            {
-              "media": "min-width: 1024px",
-              "src": "agora/image-02-desktop.jpg",
-              "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-03-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
-            {
-              "media": "min-width: 1024px",
-              "src": "agora/image-03-desktop.jpg",
-              "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-04-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
-            {
-              "media": "min-width: 1024px",
-              "src": "agora/image-04-desktop.jpg",
-              "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "video",
-          "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
         }
       ]
     },
@@ -574,16 +508,12 @@
         {
           "type": "text",
           "content": [
-            "Development of the portfolio for Thiago Franco.",
+            "Nike vem junto text",
             "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "nike-vem-junto/image-01-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
@@ -593,6 +523,11 @@
             {
               "media": "min-width: 768px",
               "src": "nike-vem-junto/image-01-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "nike-vem-junto/image-01-mobile.jpg",
               "alt": ""
             }
           ]
@@ -611,10 +546,6 @@
         },
         {
           "type": "image",
-          "common": {
-            "src": "nike-vem-junto/image-02-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
@@ -625,15 +556,16 @@
               "media": "min-width: 768px",
               "src": "nike-vem-junto/image-02-tablet.jpg",
               "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "nike-vem-junto/image-02-mobile.jpg",
+              "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "nike-vem-junto/image-03-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
@@ -644,15 +576,16 @@
               "media": "min-width: 768px",
               "src": "nike-vem-junto/image-03-tablet.jpg",
               "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "nike-vem-junto/image-03-mobile.jpg",
+              "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "nike-vem-junto/image-04-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
@@ -663,15 +596,16 @@
               "media": "min-width: 768px",
               "src": "nike-vem-junto/image-04-tablet.jpg",
               "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "nike-vem-junto/image-04-mobile.jpg",
+              "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "nike-vem-junto/image-05-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
@@ -681,6 +615,11 @@
             {
               "media": "min-width: 768px",
               "src": "nike-vem-junto/image-05-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "nike-vem-junto/image-05-mobile.jpg",
               "alt": ""
             }
           ]
@@ -727,20 +666,21 @@
         {
           "type": "text",
           "content": [
-            "Development of the portfolio for Thiago Franco.",
+            "Mastercard priceless surprise text",
             "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-01-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-01-desktop.jpg",
+              "src": "mastercard-priceless-surprises/image-01-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "mastercard-priceless-surprises/image-01-mobile.jpg",
               "alt": ""
             }
           ]
@@ -759,42 +699,30 @@
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-02-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-02-desktop.jpg",
+              "src": "mastercard-priceless-surprises/image-02-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "mastercard-priceless-surprises/image-02-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-03-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-03-desktop.jpg",
+              "src": "mastercard-priceless-surprises/image-03-desktop.jpg",
               "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-04-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
+            },
             {
-              "media": "min-width: 1024px",
-              "src": "agora/image-04-desktop.jpg",
+              "media": "min-width: 320px",
+              "src": "mastercard-priceless-surprises/image-03-mobile.jpg",
               "alt": ""
             }
           ]
@@ -816,17 +744,33 @@
           "content": [
             "The MasterCard Brasil - Não Tem Preço is a platform with promotions that are offered to MasterCard card holders. I have had a small participation on the project's structuring the frontend using AngularJS and on the main grid design."
           ]
+        }
+      ]
+    },
+    {
+      "name": "Samgung Galaxy Pro Note",
+      "company": "R/GA",
+      "year": "2013",
+      "permalink": "samsung-galaxy-pro-note",
+      "content": [
+        {
+          "type": "text",
+          "content": [
+            "Samsung galaxy pro not text",
+            "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
+          ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-01-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-01-desktop.jpg",
+              "src": "samsung-galaxy-note-pro/image-01-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "samsung-galaxy-note-pro/image-01-mobile.jpg",
               "alt": ""
             }
           ]
@@ -835,56 +779,58 @@
           "type": "list",
           "title": "Stack:",
           "items": [
-            "Angular 1",
-            "Ruby on Rails",
-            "Sass"
+            "Webpack 4",
+            "React",
+            "React Router",
+            "Sass/CSS Custom Properties",
+            "Workbox for PWA stuffs",
+            "TweenMax for animations"
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-02-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-02-desktop.jpg",
+              "src": "samsung-galaxy-note-pro/image-02-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "samsung-galaxy-note-pro/image-02-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-03-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-03-desktop.jpg",
+              "src": "samsung-galaxy-note-pro/image-03-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "samsung-galaxy-note-pro/image-03-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-04-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-04-desktop.jpg",
+              "src": "samsung-galaxy-note-pro/image-04-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "samsung-galaxy-note-pro/image-04-mobile.jpg",
               "alt": ""
             }
           ]
-        },
-        {
-          "type": "video",
-          "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
         }
       ]
     },
@@ -897,20 +843,21 @@
         {
           "type": "text",
           "content": [
-            "Development of the portfolio for Thiago Franco.",
+            "MasterCard Guia Priceless Brasil Text",
             "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-01-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-01-desktop.jpg",
+              "src": "mastercard-guia/image-01-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "mastercard-guia/image-01-mobile.jpg",
               "alt": ""
             }
           ]
@@ -929,49 +876,37 @@
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-02-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-02-desktop.jpg",
+              "src": "mastercard-guia/image-02-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "mastercard-guia/image-02-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-03-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-03-desktop.jpg",
+              "src": "mastercard-guia/image-03-desktop.jpg",
               "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-04-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
+            },
             {
-              "media": "min-width: 1024px",
-              "src": "agora/image-04-desktop.jpg",
+              "media": "min-width: 320px",
+              "src": "mastercard-guia/image-03-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "video",
-          "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
+          "url": "https://player.vimeo.com/video/125655068"
         }
       ]
     },
@@ -984,20 +919,21 @@
         {
           "type": "text",
           "content": [
-            "Development of the portfolio for Thiago Franco.",
+            "Google Expert Text",
             "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "google-expert/image-01-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "google-expert/image-01-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "google-expert/image-01-mobile.jpg",
               "alt": ""
             }
           ]
@@ -1016,28 +952,30 @@
         },
         {
           "type": "image",
-          "common": {
-            "src": "google-expert/image-02-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "google-expert/image-02-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "google-expert/image-02-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "google-expert/image-03-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "google-expert/image-03-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "google-expert/image-03-mobile.jpg",
               "alt": ""
             }
           ]
@@ -1053,20 +991,21 @@
         {
           "type": "text",
           "content": [
-            "Development of the portfolio for Thiago Franco.",
+            "Google Creative Sandbox Text",
             "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-01-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-01-desktop.jpg",
+              "src": "google-creative-sandbox/image-01-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "google-creative-sandbox/image-01-mobile.jpg",
               "alt": ""
             }
           ]
@@ -1081,48 +1020,6 @@
             "Sass/CSS Custom Properties",
             "Workbox for PWA stuffs",
             "TweenMax for animations"
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-02-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
-            {
-              "media": "min-width: 1024px",
-              "src": "agora/image-02-desktop.jpg",
-              "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-03-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
-            {
-              "media": "min-width: 1024px",
-              "src": "agora/image-03-desktop.jpg",
-              "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-04-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
-            {
-              "media": "min-width: 1024px",
-              "src": "agora/image-04-desktop.jpg",
-              "alt": ""
-            }
           ]
         },
         {
