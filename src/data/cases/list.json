@@ -174,10 +174,10 @@
         },
         {
           "type": "list",
-          "title": "Stack",
+          "title": "Frontend Stack",
           "items": [
             {
-              "text": "Webpack 4"
+              "text": "Webpack"
             },
             {
               "text": "React"
@@ -275,10 +275,13 @@
       "permalink": "nike-hbl-china",
       "content": [
         {
+          "type": "title",
+          "text": "A campaign website for Nike HBL on WeChat, Weibo, Tmall and Taobao."
+        },
+        {
           "type": "text",
           "content": [
-            "Project developed with R/GA Shanghai and R/GA Singapore.",
-            "A campaign website for Nike HBL on WeChat, Weibo, Tmall and Taobao."
+            "Project developed with R/GA Shanghai and R/GA Singapore."
           ]
         },
         {
@@ -292,36 +295,6 @@
           "content": [
             "HBL is a big deal in China with large arenas and fanatical support. It's pretty similar to the what's going on in the US.",
             "The great challenges of this project was working with Shanghai and Singapore Team, different timezone compare to Brazil (11 hours +), understanding the China Market and support for main platforms on China (WeChat, Weibo, Tmall and Taobao)."
-          ]
-        },
-        {
-          "type": "text",
-          "content": [
-            "The result was a great project and a productive work relationship with Singapore and Shanghai R/GA Teams."
-          ]
-        },
-        {
-          "type": "list",
-          "title": "Stack",
-          "items": [
-            {
-              "text": "React/Redux"
-            },
-            {
-              "text": "Webpack"
-            },
-            {
-              "text": "Sass"
-            },
-            {
-              "text": "Gsap TweenMax for animations"
-            },
-            {
-              "text": "Differents Route transitions with React Router, SVG and React Transition Group"
-            },
-            {
-              "text": "Video control via HTML5 Video Api"
-            }
           ]
         },
         {
@@ -346,8 +319,36 @@
           ]
         },
         {
+          "type": "list",
+          "title": "Frontend Stack",
+          "items": [
+            {
+              "text": "React/Redux"
+            },
+            {
+              "text": "Webpack"
+            },
+            {
+              "text": "Sass"
+            },
+            {
+              "text": "Gsap TweenMax for animations"
+            },
+            {
+              "text": "Differents Route transitions with React Router, SVG and React Transition Group"
+            },
+            {
+              "text": "Video control via HTML5 Video Api"
+            }
+          ]
+        },
+        {
           "type": "video",
           "url": "https://www.youtube.com/embed/DrmjoFxUwb4"
+        },
+        {
+          "type": "title",
+          "text": "The result was a great project and a productive work relationship with Singapore and Shanghai R/GA Teams."
         },
         {
           "type": "video",
@@ -376,9 +377,13 @@
       "permalink": "year-with-uber",
       "content": [
         {
+          "type": "title",
+          "text": "Year with Uber is a story-driven experience with a modular structure that surprise and delight users."
+        },
+        {
           "type": "text",
           "content": [
-            "Year with Uber is a story-driven experience with a modular structure that surprise and delight users. Scenes from the experience are informed by your trip data, making no two user’s experiences the same."
+            "Scenes from the experience are informed by your trip data, making no two user’s experiences the same."
           ]
         },
         {
@@ -389,10 +394,8 @@
           ]
         },
         {
-          "type": "text",
-          "content": [
-            "I created a structure that made it easy to update the website texts for 5 different languages: English, Hong Kong, Indian, Thailand and Vietnam."
-          ]
+          "type": "title",
+          "text": "I created a structure that made it easy to update the website texts for 5 different languages: English, Hong Kong, Indian, Thailand and Vietnam."
         },
         {
           "type": "text",
@@ -408,7 +411,7 @@
     },
     {
       "name": "Grupo Gloria",
-      "company": "R/GA",
+      "company": "Freelancer",
       "year": "2017",
       "permalink": "grupo-gloria",
       "content": [
@@ -424,14 +427,23 @@
         },
         {
           "type": "list",
-          "title": "The site was developed thinking in responsive (Mobile First) with the follow stack:",
+          "title": "Frontend Stack",
           "items": [
-            "Webpack",
-            "React",
-            "Redux",
-            "Javascript ES6",
-            "Sass",
-            "Node.js and Express was used to deliver the static website"
+            {
+              "text": "Webpack"
+            },
+            {
+              "text": "React"
+            },
+            {
+              "text": "Redux"
+            },
+            {
+              "text": "Sass"
+            },
+            {
+              "text": "Express was used to serve the static website"
+            }
           ]
         },
         {
@@ -457,6 +469,16 @@
           ]
         },
         {
+          "type": "title",
+          "text": "The idea was to show the main features of the bank and bring more people to download the app and create an account."
+        },
+        {
+          "type": "text",
+          "content": [
+            "The whole concept was created to attend directly the millennial user, mixing serious content and stories with jokes and funny dialogues as the same time that we sell the product in a very young and interesting way."
+          ]
+        },
+        {
           "type": "image",
           "sizes": [
             {
@@ -478,12 +500,20 @@
         },
         {
           "type": "list",
-          "title": "In this project we had great challenges during development such as:",
+          "title": "In this project we had great challenges during development such as",
           "items": [
-            "Website performance and loading",
-            "Mobile First",
-            "Patterns of development between developers",
-            "Patterns for the design team"
+            {
+              "text": "Website performance and loading"
+            },
+            {
+              "text": "Mobile First"
+            },
+            {
+              "text": "Patterns of development between developers"
+            },
+            {
+              "text": "Patterns for the design team"
+            }
           ]
         },
         {
@@ -508,15 +538,29 @@
         },
         {
           "type": "list",
-          "title": "The front-end stack is:",
+          "title": "Frontend Stack",
           "items": [
-            "React / Redux",
-            "Webpack",
-            "ES6",
-            "Eslint / Prettier and Stylelint for set patterns between developers",
-            "Continuous integration with jenkins and docker",
-            "Eslint running in precommit and jenkins",
-            "Bodymovin library to control SVG and After Effects export animations in front-end"
+            {
+              "text": "React / Redux"
+            },
+            {
+              "text": "Webpack"
+            },
+            {
+              "text": "ES6"
+            },
+            {
+              "text": "Eslint / Prettier and Stylelint for set patterns between developers"
+            },
+            {
+              "text": "Continuous integration with jenkins and docker"
+            },
+            {
+              "text": "Eslint running in precommit and jenkins"
+            },
+            {
+              "text": "Lottie web library to control SVG and After Effects export animations in front-end"
+            }
           ]
         },
         {
@@ -640,10 +684,15 @@
       "permalink": "nike-vem-junto",
       "content": [
         {
+          "type": "title",
+          "text": "Nike Running Brazil wanted to turn running into a sport that brought people together and as consequence, get more people running."
+        },
+        {
           "type": "text",
           "content": [
-            "Nike vem junto text",
-            "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
+            "So we decided to create Come Together - Vem Junto - a collaborative platform that allows people to create run events based on their interests and invite friends to run with them.",
+            "The platform was developed using Angular and Java APIs.",
+            "Regarding the front-end stack, we choose to use JSPM as our package manager and build tool to 'transpile' ES6 code into ES5 javascript."
           ]
         },
         {
@@ -667,13 +716,8 @@
           ]
         },
         {
-          "type": "list",
-          "title": "Stack:",
-          "items": [
-            {
-              "text": "Webpack 4"
-            }
-          ]
+          "type": "title",
+          "text": "The project was highly componentized and optimized for faster load times and high-availability."
         },
         {
           "type": "image",
@@ -816,15 +860,6 @@
           ]
         },
         {
-          "type": "list",
-          "title": "Stack:",
-          "items": [
-            {
-              "text": "Webpack 4"
-            }
-          ]
-        },
-        {
           "type": "image",
           "sizes": [
             {
@@ -943,8 +978,7 @@
         {
           "type": "text",
           "content": [
-            "Samsung galaxy pro not text",
-            "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
+            "A landing page for lanching Samsung new product Galaxy Note Pro. Our goal was to present it in a more refined way than their usual communication. I wanted it free of noise and giving space to the beautiful photos of the campaign."
           ]
         },
         {
@@ -1116,8 +1150,8 @@
         {
           "type": "text",
           "content": [
-            "Google Expert Text",
-            "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
+            "The 'Expert' is a platform for research in interactive classes for the areas of media, marketing and advertising students, which takes place simultaneously in various cinemas around the country.",
+            "The goal of the project is to assist the professional to think strategically and manage their campaigns in a way effectively and intelligently, using Google tools, and prepare you to make the certification exam that will greatly help to manage these projects and your career."
           ]
         },
         {
