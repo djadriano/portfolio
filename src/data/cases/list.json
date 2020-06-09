@@ -121,7 +121,31 @@
         },
         {
           "type": "video",
+          "url": "https://www.youtube.com/embed/TZpgxnQY_Ys"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/embed/YM2yVeQoPFE"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/embed/5qRtgWdlOms"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/embed/06bGWs4Ru2w"
+        },
+        {
+          "type": "video",
           "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/embed/TI-sVTPaT8Q"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/embed/-SOhgZ6sG94"
         },
         {
           "type": "list",
@@ -383,7 +407,8 @@
         {
           "type": "text",
           "content": [
-            "Scenes from the experience are informed by your trip data, making no two user’s experiences the same."
+            "To reward Uber riders, was created an annual retrospective that was a cut above - transforming trip data into personalised, animated music videos that brought to life memorable moments enabled by the ridesharing service.",
+            "Drawing inspiration from the vibrancy and diversity of the region, we created a multitude of stylized Asia-Pacific locations, scenarios and characters, added a modular original music composition, and built a bespoke engine to splice them together, infinitely."
           ]
         },
         {
@@ -406,6 +431,16 @@
         {
           "type": "video",
           "url": "https://player.vimeo.com/video/250224988?color=34cdcc&amp;title=0&amp;byline=0&amp;portrait=0"
+        },
+        {
+          "type": "list",
+          "title": "Articles about the campaign",
+          "items": [
+            {
+              "text": "Bringing 'Year with Uber' to life",
+              "href": "https://mashable.com/2017/12/18/year-with-uber/?europe=true"
+            }
+          ]
         }
       ]
     },
@@ -471,12 +506,6 @@
         {
           "type": "title",
           "text": "The idea was to show the main features of the bank and bring more people to download the app and create an account."
-        },
-        {
-          "type": "text",
-          "content": [
-            "The whole concept was created to attend directly the millennial user, mixing serious content and stories with jokes and funny dialogues as the same time that we sell the product in a very young and interesting way."
-          ]
         },
         {
           "type": "image",
@@ -760,6 +789,10 @@
           ]
         },
         {
+          "type": "title",
+          "text": "The project was developed in collaboration with Tech and Production teams from R/GA New York"
+        },
+        {
           "type": "image",
           "sizes": [
             {
@@ -835,14 +868,18 @@
     {
       "name": "MasterCard Priceless Surprise",
       "company": "R/GA",
-      "year": "2015",
+      "year": "2014",
       "permalink": "mastercard-priceless-surprise",
       "content": [
         {
           "type": "text",
           "content": [
-            "The Priceless Surprises platform is a social network aggregator that fetches tweets and posts in instagram containing the hashtag #PricelessSurprises. The project was first introduced in the Grammy awards of 2014 featuring Justin Timberlake as the principal character in charge of the campaign."
+            "The Priceless Surprises platform is a social network aggregator that fetches tweets and posts in instagram containing the hashtag #PricelessSurprises."
           ]
+        },
+        {
+          "type": "title",
+          "text": "The project was first introduced in the Grammy awards of 2014 featuring Justin Timberlake as the principal character in charge of the campaign."
         },
         {
           "type": "image",
@@ -888,23 +925,97 @@
               "alt": ""
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "Samgung Galaxy Pro Note",
+      "company": "R/GA",
+      "year": "2013",
+      "permalink": "samsung-galaxy-pro-note",
+      "content": [
+        {
+          "type": "text",
+          "content": [
+            "A landing page for lanching Samsung new product Galaxy Note Pro. Our goal was to present it in a more refined way than their usual communication. I wanted it free of noise and giving space to the beautiful photos of the campaign."
+          ]
         },
         {
-          "type": "video",
-          "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
+          "type": "image",
+          "sizes": [
+            {
+              "media": "min-width: 1024px",
+              "src": "samsung-galaxy-note-pro/image-01-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "samsung-galaxy-note-pro/image-01-mobile.jpg",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "sizes": [
+            {
+              "media": "min-width: 1024px",
+              "src": "samsung-galaxy-note-pro/image-02-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "samsung-galaxy-note-pro/image-02-mobile.jpg",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "sizes": [
+            {
+              "media": "min-width: 1024px",
+              "src": "samsung-galaxy-note-pro/image-03-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "samsung-galaxy-note-pro/image-03-mobile.jpg",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "sizes": [
+            {
+              "media": "min-width: 1024px",
+              "src": "samsung-galaxy-note-pro/image-04-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "samsung-galaxy-note-pro/image-04-mobile.jpg",
+              "alt": ""
+            }
+          ]
         }
       ]
     },
     {
       "name": "Mastercard - NaoTemPreco",
       "company": "R/GA",
-      "year": "2012",
+      "year": "2013",
       "permalink": "mastercard-nao-tem-preco",
       "content": [
         {
+          "type": "title",
+          "text": "The MasterCard Brasil - Não Tem Preço is a platform with promotions that are offered to MasterCard card holders."
+        },
+        {
           "type": "text",
           "content": [
-            "The MasterCard Brasil - Não Tem Preço is a platform with promotions that are offered to MasterCard card holders. I have had a small participation on the project's structuring the frontend using AngularJS and on the main grid design."
+            "My role in this project was to create the frontend structure using AngularJS and develop the main grid design in collaboration with Design and UX teams."
           ]
         },
         {
@@ -970,100 +1081,19 @@
       ]
     },
     {
-      "name": "Samgung Galaxy Pro Note",
-      "company": "R/GA",
-      "year": "2013",
-      "permalink": "samsung-galaxy-pro-note",
-      "content": [
-        {
-          "type": "text",
-          "content": [
-            "A landing page for lanching Samsung new product Galaxy Note Pro. Our goal was to present it in a more refined way than their usual communication. I wanted it free of noise and giving space to the beautiful photos of the campaign."
-          ]
-        },
-        {
-          "type": "image",
-          "sizes": [
-            {
-              "media": "min-width: 1024px",
-              "src": "samsung-galaxy-note-pro/image-01-desktop.jpg",
-              "alt": ""
-            },
-            {
-              "media": "min-width: 320px",
-              "src": "samsung-galaxy-note-pro/image-01-mobile.jpg",
-              "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "title": "Stack:",
-          "items": [
-            {
-              "text": "Webpack 4"
-            }
-          ]
-        },
-        {
-          "type": "image",
-          "sizes": [
-            {
-              "media": "min-width: 1024px",
-              "src": "samsung-galaxy-note-pro/image-02-desktop.jpg",
-              "alt": ""
-            },
-            {
-              "media": "min-width: 320px",
-              "src": "samsung-galaxy-note-pro/image-02-mobile.jpg",
-              "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "image",
-          "sizes": [
-            {
-              "media": "min-width: 1024px",
-              "src": "samsung-galaxy-note-pro/image-03-desktop.jpg",
-              "alt": ""
-            },
-            {
-              "media": "min-width: 320px",
-              "src": "samsung-galaxy-note-pro/image-03-mobile.jpg",
-              "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "image",
-          "sizes": [
-            {
-              "media": "min-width: 1024px",
-              "src": "samsung-galaxy-note-pro/image-04-desktop.jpg",
-              "alt": ""
-            },
-            {
-              "media": "min-width: 320px",
-              "src": "samsung-galaxy-note-pro/image-04-mobile.jpg",
-              "alt": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "MasterCard Guia Priceless Brasil",
       "company": "R/GA",
       "year": "2013",
       "permalink": "mastercard-guia",
       "content": [
         {
+          "type": "title",
+          "text": "Responsive platform crawling social networks for #priceless experiences across Brazil."
+        },
+        {
           "type": "text",
           "content": [
-            "MasterCard Priceless Guide Brazil",
-            "Responsive platform crawling social networks for #priceless experiences across Brazil. To participate, users don’t even need to access the site, they just need to connect and keep using their social networks as they would.",
-            "Experiences were collected in this platform allowing users to group it on a wish list, like and share it."
+            "The Priceless Brazil Guide is a website accessible from any device with a directory of places and activities informed by Brazilians’ social media activity. It’s the best of Brazil, according to Brazilians themselves."
           ]
         },
         {
@@ -1082,12 +1112,9 @@
           ]
         },
         {
-          "type": "list",
-          "title": "Stack:",
-          "items": [
-            {
-              "text": "Webpack 4"
-            }
+          "type": "text",
+          "content": [
+            "People use the hashtag #priceless when tweeting, checking in, taking a photo, or posting a status update. This behavior supplies the guide’s content. Users can browse recommendations from friends or chosen experts. They can like experiences, tag things they’ve done, or make a to do list."
           ]
         },
         {
@@ -1136,6 +1163,10 @@
           ]
         },
         {
+          "type": "title",
+          "text": "In just three months, with no paid media support, over 10,000 people registered to use the guide, posting over 1000 experiences."
+        },
+        {
           "type": "video",
           "url": "https://player.vimeo.com/video/125655068"
         }
@@ -1166,15 +1197,6 @@
               "media": "min-width: 320px",
               "src": "google-expert/image-01-mobile.jpg",
               "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "title": "Stack:",
-          "items": [
-            {
-              "text": "Webpack 4"
             }
           ]
         },
@@ -1219,9 +1241,12 @@
         {
           "type": "text",
           "content": [
-            "Google Creative Sandbox Text",
-            "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
+            "The Google Creative Sandbox is a Google contest to encourage the development of new ideas, was launched with the theme of 'innovative ideas that use creativity and technology to improve people's lives'"
           ]
+        },
+        {
+          "type": "title",
+          "text": "Responsive website for idea submission, judgement moderation, and the live event."
         },
         {
           "type": "image",
@@ -1239,17 +1264,18 @@
           ]
         },
         {
-          "type": "list",
-          "title": "Stack:",
-          "items": [
-            {
-              "text": "Webpack 4"
-            }
-          ]
+          "type": "video",
+          "url": "https://www.youtube.com/embed/nNaScfUoVOQ"
         },
         {
-          "type": "video",
-          "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
+          "type": "list",
+          "title": "Articles about the website",
+          "items": [
+            {
+              "text": "5 coisas que aprendi em um projeto Mobile-First Responsive Design para o Google",
+              "href": "https://brasil.uxdesign.cc/5-coisas-que-aprendi-em-um-projeto-mobile-first-responsive-design-para-o-google-cb9c3223c51e"
+            }
+          ]
         }
       ]
     }
