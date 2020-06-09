@@ -634,21 +634,6 @@
       ]
     },
     {
-      "name": "Nike Você Sem Limites",
-      "company": "R/GA",
-      "year": "2016",
-      "permalink": "nike-voce-sem-limites",
-      "content": [
-        {
-          "type": "text",
-          "content": [
-            "Nike voce sem limites",
-            "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
-          ]
-        }
-      ]
-    },
-    {
       "name": "Nike Vem Junto",
       "company": "R/GA",
       "year": "2015",
@@ -812,8 +797,7 @@
         {
           "type": "text",
           "content": [
-            "Mastercard priceless surprise text",
-            "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
+            "The Priceless Surprises platform is a social network aggregator that fetches tweets and posts in instagram containing the hashtag #PricelessSurprises. The project was first introduced in the Grammy awards of 2014 featuring Justin Timberlake as the principal character in charge of the campaign."
           ]
         },
         {
@@ -886,6 +870,66 @@
           "type": "text",
           "content": [
             "The MasterCard Brasil - Não Tem Preço is a platform with promotions that are offered to MasterCard card holders. I have had a small participation on the project's structuring the frontend using AngularJS and on the main grid design."
+          ]
+        },
+        {
+          "type": "image",
+          "sizes": [
+            {
+              "media": "min-width: 1024px",
+              "src": "mastercard-nao-tem-preco/image-01-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "mastercard-nao-tem-preco/image-01-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "mastercard-nao-tem-preco/image-01-mobile.jpg",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "sizes": [
+            {
+              "media": "min-width: 1024px",
+              "src": "mastercard-nao-tem-preco/image-02-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "mastercard-nao-tem-preco/image-02-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "mastercard-nao-tem-preco/image-02-mobile.jpg",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "sizes": [
+            {
+              "media": "min-width: 1024px",
+              "src": "mastercard-nao-tem-preco/image-03-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "mastercard-nao-tem-preco/image-03-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "mastercard-nao-tem-preco/image-03-mobile.jpg",
+              "alt": ""
+            }
           ]
         }
       ]
@@ -983,8 +1027,9 @@
         {
           "type": "text",
           "content": [
-            "MasterCard Guia Priceless Brasil Text",
-            "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
+            "MasterCard Priceless Guide Brazil",
+            "Responsive platform crawling social networks for #priceless experiences across Brazil. To participate, users don’t even need to access the site, they just need to connect and keep using their social networks as they would.",
+            "Experiences were collected in this platform allowing users to group it on a wish list, like and share it."
           ]
         },
         {
@@ -1037,6 +1082,21 @@
             {
               "media": "min-width: 320px",
               "src": "mastercard-guia/image-03-mobile.jpg",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "sizes": [
+            {
+              "media": "min-width: 1024px",
+              "src": "mastercard-guia/image-04-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "mastercard-guia/image-04-mobile.jpg",
               "alt": ""
             }
           ]
