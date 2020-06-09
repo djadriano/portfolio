@@ -9,7 +9,9 @@
         {
           "type": "text",
           "content": [
-            "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
+            "Development of the Ágora investment brokerage website.",
+            "The project involves the company's institutional website, the investment simulator and the registration area.",
+            "The main stack of all projects was React, so it was possible to share the component library between the projects."
           ]
         },
         {
@@ -33,15 +35,10 @@
           ]
         },
         {
-          "type": "list",
-          "title": "Frontend Stack",
-          "items": [
-            {
-              "text": "Gatsby.js"
-            },
-            {
-              "text": "Storybook"
-            }
+          "type": "text",
+          "content": [
+            "For the institutional website, Gatsby.js was used because we had the challenge of generating a static website without losing all practicality and the component library made in React.",
+            "For the management of the component library, the Storybook was used, which allowed the Visual Design and UX teams to have a real visualization of the components. It also facilitated the QA team to test each component separately instead of doing the tests based on pages (templates)."
           ]
         },
         {
@@ -61,6 +58,24 @@
               "media": "min-width: 320px",
               "src": "agora/image-02-mobile.jpg",
               "alt": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "title": "Frontend Stack",
+          "items": [
+            {
+              "text": "React"
+            },
+            {
+              "text": "Gatsby.js"
+            },
+            {
+              "text": "Storybook"
+            },
+            {
+              "text": "Lottie Web for animations"
             }
           ]
         },
@@ -159,10 +174,25 @@
         },
         {
           "type": "list",
-          "title": "Stack:",
+          "title": "Stack",
           "items": [
             {
               "text": "Webpack 4"
+            },
+            {
+              "text": "React"
+            },
+            {
+              "text": "React Router"
+            },
+            {
+              "text": "Sass/CSS Custom Properties"
+            },
+            {
+              "text": "Workbox for PWA stuffs"
+            },
+            {
+              "text": "TweenMax for animations"
             }
           ]
         },
@@ -208,12 +238,20 @@
         },
         {
           "type": "list",
-          "title": "Good points:",
+          "title": "Good points",
           "items": [
-            "Language configuration using JSON Files and React Components",
-            "Chunks split for vendors and project javascript",
-            "Using Workbox to offline support via Service Workers",
-            "Fluid Typography"
+            {
+              "text": "Language configuration using JSON Files and React Components"
+            },
+            {
+              "text": "Code splitting based on routes"
+            },
+            {
+              "text": "Using Workbox to offline support via Service Workers"
+            },
+            {
+              "text": "Fluid Typography"
+            }
           ]
         },
         {
@@ -264,14 +302,26 @@
         },
         {
           "type": "list",
-          "title": "The frontend stack for this project was:",
+          "title": "Stack",
           "items": [
-            "React/Redux",
-            "Webpack 4",
-            "Sass",
-            "Gsap TweenMax for animations",
-            "Differents Route transitions with React Router, SVG and React Transition Group",
-            "Video control via HTML5 Video Api"
+            {
+              "text": "React/Redux"
+            },
+            {
+              "text": "Webpack"
+            },
+            {
+              "text": "Sass"
+            },
+            {
+              "text": "Gsap TweenMax for animations"
+            },
+            {
+              "text": "Differents Route transitions with React Router, SVG and React Transition Group"
+            },
+            {
+              "text": "Video control via HTML5 Video Api"
+            }
           ]
         },
         {
@@ -302,6 +352,20 @@
         {
           "type": "video",
           "url": "https://www.youtube.com/embed/1XGlUZhpCuQ"
+        },
+        {
+          "type": "list",
+          "title": "Articles about the campaign",
+          "items": [
+            {
+              "text": "Nike launches stunning first-person basketball adventure",
+              "href": "https://www.campaignasia.com/video/nike-launches-stunning-first-person-basketball-adventure/444311"
+            },
+            {
+              "text": "The Road to HBL for Nike China",
+              "href": "https://lbbonline.com/news/the-road-to-hbl-for-nike-china/"
+            }
+          ]
         }
       ]
     },
