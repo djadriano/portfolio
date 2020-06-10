@@ -1,7 +1,6 @@
 <style>
   footer {
     padding: var(--spaces-s);
-    margin-top: var(--spaces-s);
   }
 </style>
 

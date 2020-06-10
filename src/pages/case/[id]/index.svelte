@@ -13,7 +13,7 @@
   import List from '@components/Cases/List/List.svelte';
   import Video from '@components/Cases/Video/Video.svelte';
   import Footer from '@components/Cases/Footer/Footer.svelte';
-  import CasesData from '@data/cases/list.json';
+  import { Cases } from '@stores/stores.js';
 
   export let id;
   export let scoped;
@@ -21,9 +21,11 @@
   let caseId;
   let nextCase;
 
-  $: id = $params.id;
-  $: caseId = CasesData.data.findIndex(item => item.permalink === id);
-  $: nextCase = CasesData.data[caseId + 1];
+  $: {
+    id = $params.id;
+    caseId = $Cases.findIndex(item => item.permalink === id);
+    nextCase = $Cases[caseId + 1];
+  }
 </script>
 
 <main>
@@ -41,7 +43,7 @@
         <Text content="{item.content}" />
       {/if}
       {#if item.type === 'image'}
-        <Image common="{item.common}" sizes="{item.sizes}" />
+        <Image sizes="{item.sizes}" />
       {/if}
       {#if item.type === 'list'}
         <List title="{item.title}" items="{item.items}" />

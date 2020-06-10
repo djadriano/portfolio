@@ -7,87 +7,159 @@
       "permalink": "agora-investimentos",
       "content": [
         {
-          "type": "title",
-          "text": "A campaign website for Nike HBL on WeChat, Weibo, Tmall and Taobao."
-        },
-        {
           "type": "text",
           "content": [
-            "Development of the portfolio for Thiago Franco.",
-            "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
+            "Development of the Ágora investment brokerage website.",
+            "The project involves the company's institutional website, the investment simulator and the registration area.",
+            "The main stack of all projects was React, so it was possible to share the component library between the projects."
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-01-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "agora/image-01-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "agora/image-01-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "agora/image-01-mobile.jpg",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "For the institutional website, Gatsby.js was used because we had the challenge of generating a static website without losing all practicality and the component library made in React.",
+            "For the management of the component library, the Storybook was used, which allowed the Visual Design and UX teams to have a real visualization of the components. It also facilitated the QA team to test each component separately instead of doing the tests based on pages (templates)."
+          ]
+        },
+        {
+          "type": "image",
+          "sizes": [
+            {
+              "media": "min-width: 1024px",
+              "src": "agora/image-02-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "agora/image-02-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "agora/image-02-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "list",
-          "title": "Stack",
+          "title": "Frontend Stack",
           "items": [
-            "Webpack 4",
-            "React",
-            "React Router",
-            "Sass/CSS Custom Properties",
-            "Workbox for PWA stuffs",
-            "TweenMax for animations"
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-02-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
             {
-              "media": "min-width: 1024px",
-              "src": "agora/image-02-desktop.jpg",
-              "alt": ""
+              "text": "React"
+            },
+            {
+              "text": "Gatsby.js"
+            },
+            {
+              "text": "Storybook"
+            },
+            {
+              "text": "Lottie Web for animations"
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-03-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "agora/image-03-desktop.jpg",
               "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "agora/image-03-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "agora/image-03-mobile.jpg",
+              "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-04-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "agora/image-04-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "agora/image-04-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "agora/image-04-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "video",
+          "url": "https://www.youtube.com/embed/TZpgxnQY_Ys"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/embed/YM2yVeQoPFE"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/embed/5qRtgWdlOms"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/embed/06bGWs4Ru2w"
+        },
+        {
+          "type": "video",
           "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/embed/TI-sVTPaT8Q"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/embed/-SOhgZ6sG94"
+        },
+        {
+          "type": "list",
+          "title": "Other projects",
+          "items": [
+            {
+              "text": "Ágora Simulator",
+              "href": "https://cadastro.agorainvest.com.br/simulador"
+            },
+            {
+              "text": "Ágora Register",
+              "href": "https://cadastro.agorainvest.com.br/"
+            }
+          ]
         }
       ]
     },
@@ -106,66 +178,104 @@
         },
         {
           "type": "image",
-          "common": {
-            "src": "thiago-franco/image-01-desktop.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "thiago-franco/image-01-desktop.jpg",
               "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "thiago-franco/image-01-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "thiago-franco/image-01-mobile.jpg",
+              "alt": ""
             }
           ]
         },
         {
           "type": "list",
-          "title": "Stack:",
+          "title": "Frontend Stack",
           "items": [
-            "Webpack 4",
-            "React",
-            "React Router",
-            "Sass/CSS Custom Properties",
-            "Workbox for PWA stuffs",
-            "TweenMax for animations"
+            {
+              "text": "Webpack"
+            },
+            {
+              "text": "React"
+            },
+            {
+              "text": "React Router"
+            },
+            {
+              "text": "Sass/CSS Custom Properties"
+            },
+            {
+              "text": "Workbox for PWA stuffs"
+            },
+            {
+              "text": "TweenMax for animations"
+            }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "thiago-franco/image-02-desktop.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "thiago-franco/image-02-desktop.jpg",
               "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "thiago-franco/image-02-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "thiago-franco/image-02-mobile.jpg",
+              "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "thiago-franco/image-03-desktop.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "thiago-franco/image-03-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "thiago-franco/image-03-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "thiago-franco/image-03-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "list",
-          "title": "Good points:",
+          "title": "Good points",
           "items": [
-            "Language configuration using JSON Files and React Components",
-            "Chunks split for vendors and project javascript",
-            "Using Workbox to offline support via Service Workers",
-            "Fluid Typography"
+            {
+              "text": "Language configuration using JSON Files and React Components"
+            },
+            {
+              "text": "Code splitting based on routes"
+            },
+            {
+              "text": "Using Workbox to offline support via Service Workers"
+            },
+            {
+              "text": "Fluid Typography"
+            }
           ]
         },
         {
@@ -189,10 +299,13 @@
       "permalink": "nike-hbl-china",
       "content": [
         {
+          "type": "title",
+          "text": "A campaign website for Nike HBL on WeChat, Weibo, Tmall and Taobao."
+        },
+        {
           "type": "text",
           "content": [
-            "Project developed with R/GA Shanghai and R/GA Singapore.",
-            "A campaign website for Nike HBL on WeChat, Weibo, Tmall and Taobao."
+            "Project developed with R/GA Shanghai and R/GA Singapore."
           ]
         },
         {
@@ -211,44 +324,87 @@
         {
           "type": "text",
           "content": [
-            "The result was a great project and a productive work relationship with Singapore and Shanghai R/GA Teams."
-          ]
-        },
-        {
-          "type": "list",
-          "title": "The frontend stack for this project was:",
-          "items": [
-            "React/Redux",
-            "Webpack 4",
-            "Sass",
-            "Gsap TweenMax for animations",
-            "Differents Route transitions with React Router, SVG and React Transition Group",
-            "Video control via HTML5 Video Api"
-          ]
-        },
-        {
-          "type": "text",
-          "content": [
             "I was proud to work with Singapore and Shanghai R/GA Teams developing this project."
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "nike-hbl/image-01-desktop.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "nike-hbl/image-01-desktop.jpg",
               "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "nike-hbl/image-01-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "nike-hbl/image-01-mobile.jpg",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "title": "Frontend Stack",
+          "items": [
+            {
+              "text": "React/Redux"
+            },
+            {
+              "text": "Webpack"
+            },
+            {
+              "text": "Sass"
+            },
+            {
+              "text": "Gsap TweenMax for animations"
+            },
+            {
+              "text": "Differents Route transitions with React Router, SVG and React Transition Group"
+            },
+            {
+              "text": "Video control via HTML5 Video Api"
             }
           ]
         },
         {
           "type": "video",
           "url": "https://www.youtube.com/embed/DrmjoFxUwb4"
+        },
+        {
+          "type": "title",
+          "text": "The result was a great project and a productive work relationship with Singapore and Shanghai R/GA Teams."
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/embed/1XGlUZhpCuQ"
+        },
+        {
+          "type": "list",
+          "title": "Articles about the campaign",
+          "items": [
+            {
+              "text": "Nike launches stunning first-person basketball adventure",
+              "href": "https://www.campaignasia.com/video/nike-launches-stunning-first-person-basketball-adventure/444311"
+            },
+            {
+              "text": "The Road to HBL for Nike China",
+              "href": "https://lbbonline.com/news/the-road-to-hbl-for-nike-china/"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "title": "Awards",
+          "items": [
+            {
+              "text": "Cannes Lion - Digital Craft: Motion Graphics Design & Animation - Shortlist"
+            }
+          ]
         }
       ]
     },
@@ -259,9 +415,14 @@
       "permalink": "year-with-uber",
       "content": [
         {
+          "type": "title",
+          "text": "Year with Uber is a story-driven experience with a modular structure that surprise and delight users."
+        },
+        {
           "type": "text",
           "content": [
-            "Year with Uber is a story-driven experience with a modular structure that surprise and delight users. Scenes from the experience are informed by your trip data, making no two user’s experiences the same."
+            "To reward Uber riders, was created an annual retrospective that was a cut above - transforming trip data into personalised, animated music videos that brought to life memorable moments enabled by the ridesharing service.",
+            "Drawing inspiration from the vibrancy and diversity of the region, we created a multitude of stylized Asia-Pacific locations, scenarios and characters, added a modular original music composition, and built a bespoke engine to splice them together, infinitely."
           ]
         },
         {
@@ -272,10 +433,8 @@
           ]
         },
         {
-          "type": "text",
-          "content": [
-            "I created a structure that made it easy to update the website texts for 5 different languages: English, Hong Kong, Indian, Thailand and Vietnam."
-          ]
+          "type": "title",
+          "text": "I created a structure that made it easy to update the website texts for 5 different languages: English, Hong Kong, Indian, Thailand and Vietnam."
         },
         {
           "type": "text",
@@ -286,12 +445,37 @@
         {
           "type": "video",
           "url": "https://player.vimeo.com/video/250224988?color=34cdcc&amp;title=0&amp;byline=0&amp;portrait=0"
+        },
+        {
+          "type": "list",
+          "title": "Articles about the campaign",
+          "items": [
+            {
+              "text": "Bringing 'Year with Uber' to life",
+              "href": "https://mashable.com/2017/12/18/year-with-uber/?europe=true"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "title": "Awards",
+          "items": [
+            {
+              "text": "Webby Awards - Best Use of Animation or Motion Graphics - Honoree"
+            },
+            {
+              "text": "Spikes Asia - Bronze Spike"
+            },
+            {
+              "text": "Webby Awards - Corporate Communications - Honoree"
+            }
+          ]
         }
       ]
     },
     {
       "name": "Grupo Gloria",
-      "company": "R/GA",
+      "company": "Freelancer",
       "year": "2017",
       "permalink": "grupo-gloria",
       "content": [
@@ -307,14 +491,23 @@
         },
         {
           "type": "list",
-          "title": "The site was developed thinking in responsive (Mobile First) with the follow stack:",
+          "title": "Frontend Stack",
           "items": [
-            "Webpack",
-            "React",
-            "Redux",
-            "Javascript ES6",
-            "Sass",
-            "Node.js and Express was used to deliver the static website"
+            {
+              "text": "Webpack"
+            },
+            {
+              "text": "React"
+            },
+            {
+              "text": "Redux"
+            },
+            {
+              "text": "Sass"
+            },
+            {
+              "text": "Express was used to serve the static website"
+            }
           ]
         },
         {
@@ -340,122 +533,190 @@
           ]
         },
         {
+          "type": "title",
+          "text": "The idea was to show the main features of the bank and bring more people to download the app and create an account."
+        },
+        {
           "type": "image",
-          "common": {
-            "src": "next/image-01-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "next/image-01-desktop.jpg",
               "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "next/image-01-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "next/image-01-mobile.jpg",
+              "alt": ""
             }
           ]
         },
         {
           "type": "list",
-          "title": "In this project we had great challenges during development such as:",
+          "title": "In this project we had great challenges during development such as",
           "items": [
-            "Website performance and loading",
-            "Mobile First",
-            "Patterns of development between developers",
-            "Patterns for the design team"
+            {
+              "text": "Website performance and loading"
+            },
+            {
+              "text": "Mobile First"
+            },
+            {
+              "text": "Patterns of development between developers"
+            },
+            {
+              "text": "Patterns for the design team"
+            }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "next/image-02-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "next/image-02-desktop.jpg",
               "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "next/image-02-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "next/image-02-mobile.jpg",
+              "alt": ""
             }
           ]
         },
         {
           "type": "list",
-          "title": "The front-end stack is:",
+          "title": "Frontend Stack",
           "items": [
-            "React / Redux",
-            "Webpack",
-            "ES6",
-            "Eslint / Prettier and Stylelint for set patterns between developers",
-            "Continuous integration with jenkins and docker",
-            "Eslint running in precommit and jenkins",
-            "Bodymovin library to control SVG and After Effects export animations in front-end"
+            {
+              "text": "React / Redux"
+            },
+            {
+              "text": "Webpack"
+            },
+            {
+              "text": "ES6"
+            },
+            {
+              "text": "Eslint / Prettier and Stylelint for set patterns between developers"
+            },
+            {
+              "text": "Continuous integration with jenkins and docker"
+            },
+            {
+              "text": "Eslint running in precommit and jenkins"
+            },
+            {
+              "text": "Lottie web library to control SVG and After Effects export animations in front-end"
+            }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "next/image-03-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "next/image-03-desktop.jpg",
               "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "next/image-03-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "next/image-03-mobile.jpg",
+              "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "next/image-04-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "next/image-04-desktop.jpg",
               "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "next/image-04-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "next/image-04-mobile.jpg",
+              "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "next/image-05-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "next/image-05-desktop.jpg",
               "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "next/image-06-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
+            },
             {
-              "media": "min-width: 1024px",
-              "src": "next/image-06-desktop.jpg",
+              "media": "min-width: 768px",
+              "src": "next/image-05-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "next/image-05-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "next/image-07-mobile.jpg",
-            "alt": ""
-          },
+          "sizes": [
+            {
+              "media": "min-width: 1024px",
+              "src": "next/image-06-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "next/image-06-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "next/image-06-mobile.jpg",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
           "sizes": [
             {
               "media": "min-width: 1024px",
               "src": "next/image-07-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "next/image-07-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "next/image-07-mobile.jpg",
               "alt": ""
             }
           ]
@@ -475,176 +736,153 @@
       ]
     },
     {
-      "name": "Nike Você Sem Limites",
-      "company": "R/GA",
-      "year": "2016",
-      "permalink": "nike-voce-sem-limites",
-      "content": [
-        {
-          "type": "text",
-          "content": [
-            "Development of the portfolio for Thiago Franco.",
-            "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-01-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
-            {
-              "media": "min-width: 1024px",
-              "src": "agora/image-01-desktop.jpg",
-              "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "title": "Stack:",
-          "items": [
-            "Webpack 4",
-            "React",
-            "React Router",
-            "Sass/CSS Custom Properties",
-            "Workbox for PWA stuffs",
-            "TweenMax for animations"
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-02-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
-            {
-              "media": "min-width: 1024px",
-              "src": "agora/image-02-desktop.jpg",
-              "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-03-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
-            {
-              "media": "min-width: 1024px",
-              "src": "agora/image-03-desktop.jpg",
-              "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-04-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
-            {
-              "media": "min-width: 1024px",
-              "src": "agora/image-04-desktop.jpg",
-              "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "video",
-          "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
-        }
-      ]
-    },
-    {
       "name": "Nike Vem Junto",
       "company": "R/GA",
       "year": "2015",
       "permalink": "nike-vem-junto",
       "content": [
         {
+          "type": "title",
+          "text": "Nike Running Brazil wanted to turn running into a sport that brought people together and as consequence, get more people running."
+        },
+        {
           "type": "text",
           "content": [
-            "Development of the portfolio for Thiago Franco.",
-            "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
+            "So we decided to create Come Together - Vem Junto - a collaborative platform that allows people to create run events based on their interests and invite friends to run with them.",
+            "The platform was developed using Angular and Java APIs.",
+            "Regarding the front-end stack, we choose to use JSPM as our package manager and build tool to 'transpile' ES6 code into ES5 javascript."
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-01-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-01-desktop.jpg",
+              "src": "nike-vem-junto/image-01-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "nike-vem-junto/image-01-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "nike-vem-junto/image-01-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
-          "type": "list",
-          "title": "Stack:",
-          "items": [
-            "Webpack 4",
-            "React",
-            "React Router",
-            "Sass/CSS Custom Properties",
-            "Workbox for PWA stuffs",
-            "TweenMax for animations"
-          ]
+          "type": "title",
+          "text": "The project was highly componentized and optimized for faster load times and high-availability."
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-02-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-02-desktop.jpg",
+              "src": "nike-vem-junto/image-02-desktop.jpg",
               "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-03-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
+            },
             {
-              "media": "min-width: 1024px",
-              "src": "agora/image-03-desktop.jpg",
+              "media": "min-width: 768px",
+              "src": "nike-vem-junto/image-02-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "nike-vem-junto/image-02-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-04-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-04-desktop.jpg",
+              "src": "nike-vem-junto/image-03-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "nike-vem-junto/image-03-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "nike-vem-junto/image-03-mobile.jpg",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "type": "title",
+          "text": "The project was developed in collaboration with Tech and Production teams from R/GA New York"
+        },
+        {
+          "type": "image",
+          "sizes": [
+            {
+              "media": "min-width: 1024px",
+              "src": "nike-vem-junto/image-04-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "nike-vem-junto/image-04-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "nike-vem-junto/image-04-mobile.jpg",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "sizes": [
+            {
+              "media": "min-width: 1024px",
+              "src": "nike-vem-junto/image-05-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "nike-vem-junto/image-05-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "nike-vem-junto/image-05-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "video",
-          "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
+          "url": "https://www.youtube.com/embed/oeq2dbUBMdg"
+        },
+        {
+          "type": "video",
+          "url": "https://player.vimeo.com/video/246258103"
+        },
+        {
+          "type": "list",
+          "title": "Awards",
+          "items": [
+            {
+              "text": "Wave Festival - (Cyber Digital) - Shortlist"
+            },
+            {
+              "text": "Wave Festival - (Cyber Social) - Shortlist"
+            },
+            {
+              "text": "Wave Festival - (Direct - Media use and MKT strategy) - Shortlist"
+            }
+          ]
         }
       ]
     },
@@ -674,170 +912,215 @@
     {
       "name": "MasterCard Priceless Surprise",
       "company": "R/GA",
-      "year": "2015",
+      "year": "2014",
       "permalink": "mastercard-priceless-surprise",
       "content": [
         {
           "type": "text",
           "content": [
-            "Development of the portfolio for Thiago Franco.",
-            "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
+            "The Priceless Surprises platform is a social network aggregator that fetches tweets and posts in instagram containing the hashtag #PricelessSurprises."
           ]
         },
         {
+          "type": "title",
+          "text": "The project was first introduced in the Grammy awards of 2014 featuring Justin Timberlake as the principal character in charge of the campaign."
+        },
+        {
           "type": "image",
-          "common": {
-            "src": "agora/image-01-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-01-desktop.jpg",
+              "src": "mastercard-priceless-surprises/image-01-desktop.jpg",
               "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "title": "Stack:",
-          "items": [
-            "Webpack 4",
-            "React",
-            "React Router",
-            "Sass/CSS Custom Properties",
-            "Workbox for PWA stuffs",
-            "TweenMax for animations"
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-02-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
+            },
             {
-              "media": "min-width: 1024px",
-              "src": "agora/image-02-desktop.jpg",
+              "media": "min-width: 320px",
+              "src": "mastercard-priceless-surprises/image-01-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-03-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-03-desktop.jpg",
+              "src": "mastercard-priceless-surprises/image-02-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "mastercard-priceless-surprises/image-02-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-04-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-04-desktop.jpg",
+              "src": "mastercard-priceless-surprises/image-03-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "mastercard-priceless-surprises/image-03-mobile.jpg",
+              "alt": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Samgung Galaxy Pro Note",
+      "company": "R/GA",
+      "year": "2013",
+      "permalink": "samsung-galaxy-pro-note",
+      "content": [
+        {
+          "type": "text",
+          "content": [
+            "A landing page for lanching Samsung new product Galaxy Note Pro. Our goal was to present it in a more refined way than their usual communication. I wanted it free of noise and giving space to the beautiful photos of the campaign."
+          ]
+        },
+        {
+          "type": "image",
+          "sizes": [
+            {
+              "media": "min-width: 1024px",
+              "src": "samsung-galaxy-note-pro/image-01-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "samsung-galaxy-note-pro/image-01-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
-          "type": "video",
-          "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
+          "type": "image",
+          "sizes": [
+            {
+              "media": "min-width: 1024px",
+              "src": "samsung-galaxy-note-pro/image-02-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "samsung-galaxy-note-pro/image-02-mobile.jpg",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "sizes": [
+            {
+              "media": "min-width: 1024px",
+              "src": "samsung-galaxy-note-pro/image-03-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "samsung-galaxy-note-pro/image-03-mobile.jpg",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "sizes": [
+            {
+              "media": "min-width: 1024px",
+              "src": "samsung-galaxy-note-pro/image-04-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "samsung-galaxy-note-pro/image-04-mobile.jpg",
+              "alt": ""
+            }
+          ]
         }
       ]
     },
     {
       "name": "Mastercard - NaoTemPreco",
       "company": "R/GA",
-      "year": "2012",
+      "year": "2013",
       "permalink": "mastercard-nao-tem-preco",
       "content": [
         {
+          "type": "title",
+          "text": "The MasterCard Brasil - Não Tem Preço is a platform with promotions that are offered to MasterCard card holders."
+        },
+        {
           "type": "text",
           "content": [
-            "The MasterCard Brasil - Não Tem Preço is a platform with promotions that are offered to MasterCard card holders. I have had a small participation on the project's structuring the frontend using AngularJS and on the main grid design."
+            "My role in this project was to create the frontend structure using AngularJS and develop the main grid design in collaboration with Design and UX teams."
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-01-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-01-desktop.jpg",
+              "src": "mastercard-nao-tem-preco/image-01-desktop.jpg",
               "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "title": "Stack:",
-          "items": [
-            "Angular 1",
-            "Ruby on Rails",
-            "Sass"
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-02-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
+            },
             {
-              "media": "min-width: 1024px",
-              "src": "agora/image-02-desktop.jpg",
+              "media": "min-width: 768px",
+              "src": "mastercard-nao-tem-preco/image-01-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "mastercard-nao-tem-preco/image-01-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-03-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-03-desktop.jpg",
+              "src": "mastercard-nao-tem-preco/image-02-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "mastercard-nao-tem-preco/image-02-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "mastercard-nao-tem-preco/image-02-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-04-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-04-desktop.jpg",
+              "src": "mastercard-nao-tem-preco/image-03-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 768px",
+              "src": "mastercard-nao-tem-preco/image-03-tablet.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "mastercard-nao-tem-preco/image-03-mobile.jpg",
               "alt": ""
             }
           ]
-        },
-        {
-          "type": "video",
-          "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
         }
       ]
     },
@@ -848,83 +1131,100 @@
       "permalink": "mastercard-guia",
       "content": [
         {
+          "type": "title",
+          "text": "Responsive platform crawling social networks for #priceless experiences across Brazil."
+        },
+        {
           "type": "text",
           "content": [
-            "Development of the portfolio for Thiago Franco.",
-            "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
+            "The Priceless Brazil Guide is a website accessible from any device with a directory of places and activities informed by Brazilians’ social media activity. It’s the best of Brazil, according to Brazilians themselves."
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-01-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-01-desktop.jpg",
+              "src": "mastercard-guia/image-01-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "mastercard-guia/image-01-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
-          "type": "list",
-          "title": "Stack:",
-          "items": [
-            "Webpack 4",
-            "React",
-            "React Router",
-            "Sass/CSS Custom Properties",
-            "Workbox for PWA stuffs",
-            "TweenMax for animations"
+          "type": "text",
+          "content": [
+            "People use the hashtag #priceless when tweeting, checking in, taking a photo, or posting a status update. This behavior supplies the guide’s content. Users can browse recommendations from friends or chosen experts. They can like experiences, tag things they’ve done, or make a to do list."
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-02-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-02-desktop.jpg",
+              "src": "mastercard-guia/image-02-desktop.jpg",
               "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-03-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
+            },
             {
-              "media": "min-width: 1024px",
-              "src": "agora/image-03-desktop.jpg",
+              "media": "min-width: 320px",
+              "src": "mastercard-guia/image-02-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-04-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-04-desktop.jpg",
+              "src": "mastercard-guia/image-03-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "mastercard-guia/image-03-mobile.jpg",
               "alt": ""
             }
           ]
+        },
+        {
+          "type": "image",
+          "sizes": [
+            {
+              "media": "min-width: 1024px",
+              "src": "mastercard-guia/image-04-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "mastercard-guia/image-04-mobile.jpg",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "type": "title",
+          "text": "In just three months, with no paid media support, over 10,000 people registered to use the guide, posting over 1000 experiences."
         },
         {
           "type": "video",
-          "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
+          "url": "https://player.vimeo.com/video/125655068"
+        },
+        {
+          "type": "list",
+          "title": "Awards",
+          "items": [
+            {
+              "text": "ABEMD - Gold"
+            },
+            {
+              "text": "Wave Festival - Silver"
+            }
+          ]
         }
       ]
     },
@@ -937,81 +1237,54 @@
         {
           "type": "text",
           "content": [
-            "Development of the portfolio for Thiago Franco.",
-            "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
+            "The 'Expert' is a platform for research in interactive classes for the areas of media, marketing and advertising students, which takes place simultaneously in various cinemas around the country.",
+            "The goal of the project is to assist the professional to think strategically and manage their campaigns in a way effectively and intelligently, using Google tools, and prepare you to make the certification exam that will greatly help to manage these projects and your career."
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-01-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-01-desktop.jpg",
+              "src": "google-expert/image-01-desktop.jpg",
               "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "title": "Stack:",
-          "items": [
-            "Webpack 4",
-            "React",
-            "React Router",
-            "Sass/CSS Custom Properties",
-            "Workbox for PWA stuffs",
-            "TweenMax for animations"
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-02-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
+            },
             {
-              "media": "min-width: 1024px",
-              "src": "agora/image-02-desktop.jpg",
+              "media": "min-width: 320px",
+              "src": "google-expert/image-01-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-03-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-03-desktop.jpg",
+              "src": "google-expert/image-02-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "google-expert/image-02-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "image",
-          "common": {
-            "src": "agora/image-04-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-04-desktop.jpg",
+              "src": "google-expert/image-03-desktop.jpg",
+              "alt": ""
+            },
+            {
+              "media": "min-width: 320px",
+              "src": "google-expert/image-03-mobile.jpg",
               "alt": ""
             }
           ]
-        },
-        {
-          "type": "video",
-          "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
         }
       ]
     },
@@ -1024,81 +1297,56 @@
         {
           "type": "text",
           "content": [
-            "Development of the portfolio for Thiago Franco.",
-            "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
+            "The Google Creative Sandbox is a Google contest to encourage the development of new ideas, was launched with the theme of 'innovative ideas that use creativity and technology to improve people's lives'"
           ]
         },
         {
+          "type": "title",
+          "text": "Responsive website for idea submission, judgement moderation, and the live event."
+        },
+        {
           "type": "image",
-          "common": {
-            "src": "agora/image-01-mobile.jpg",
-            "alt": ""
-          },
           "sizes": [
             {
               "media": "min-width: 1024px",
-              "src": "agora/image-01-desktop.jpg",
+              "src": "google-creative-sandbox/image-01-desktop.jpg",
               "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "title": "Stack:",
-          "items": [
-            "Webpack 4",
-            "React",
-            "React Router",
-            "Sass/CSS Custom Properties",
-            "Workbox for PWA stuffs",
-            "TweenMax for animations"
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-02-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
+            },
             {
-              "media": "min-width: 1024px",
-              "src": "agora/image-02-desktop.jpg",
-              "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-03-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
-            {
-              "media": "min-width: 1024px",
-              "src": "agora/image-03-desktop.jpg",
-              "alt": ""
-            }
-          ]
-        },
-        {
-          "type": "image",
-          "common": {
-            "src": "agora/image-04-mobile.jpg",
-            "alt": ""
-          },
-          "sizes": [
-            {
-              "media": "min-width: 1024px",
-              "src": "agora/image-04-desktop.jpg",
+              "media": "min-width: 320px",
+              "src": "google-creative-sandbox/image-01-mobile.jpg",
               "alt": ""
             }
           ]
         },
         {
           "type": "video",
-          "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
+          "url": "https://www.youtube.com/embed/nNaScfUoVOQ"
+        },
+        {
+          "type": "list",
+          "title": "Articles about the website",
+          "items": [
+            {
+              "text": "5 coisas que aprendi em um projeto Mobile-First Responsive Design para o Google",
+              "href": "https://brasil.uxdesign.cc/5-coisas-que-aprendi-em-um-projeto-mobile-first-responsive-design-para-o-google-cb9c3223c51e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "title": "Awards",
+          "items": [
+            {
+              "text": "ABEMD - (Special Award) - Best Digital"
+            },
+            {
+              "text": "ABEMD - (Special Award) - Gold"
+            },
+            {
+              "text": "ABEMD - (Special Award) - Grand Prix"
+            }
+          ]
         }
       ]
     }
