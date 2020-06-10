@@ -391,6 +391,15 @@
               "href": "https://lbbonline.com/news/the-road-to-hbl-for-nike-china/"
             }
           ]
+        },
+        {
+          "type": "list",
+          "title": "Awards",
+          "items": [
+            {
+              "text": "Cannes Lion - Digital Craft: Motion Graphics Design & Animation - Shortlist"
+            }
+          ]
         }
       ]
     },
@@ -439,6 +448,21 @@
             {
               "text": "Bringing 'Year with Uber' to life",
               "href": "https://mashable.com/2017/12/18/year-with-uber/?europe=true"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "title": "Awards",
+          "items": [
+            {
+              "text": "Webby Awards - Best Use of Animation or Motion Graphics - Honoree"
+            },
+            {
+              "text": "Spikes Asia - Bronze Spike"
+            },
+            {
+              "text": "Webby Awards - Corporate Communications - Honoree"
             }
           ]
         }
@@ -839,6 +863,21 @@
         {
           "type": "video",
           "url": "https://player.vimeo.com/video/246258103"
+        },
+        {
+          "type": "list",
+          "title": "Awards",
+          "items": [
+            {
+              "text": "Wave Festival - (Cyber Digital) - Shortlist"
+            },
+            {
+              "text": "Wave Festival - (Cyber Social) - Shortlist"
+            },
+            {
+              "text": "Wave Festival - (Direct - Media use and MKT strategy) - Shortlist"
+            }
+          ]
         }
       ]
     },
@@ -1169,6 +1208,18 @@
         {
           "type": "video",
           "url": "https://player.vimeo.com/video/125655068"
+        },
+        {
+          "type": "list",
+          "title": "Awards",
+          "items": [
+            {
+              "text": "ABEMD - Gold"
+            },
+            {
+              "text": "Wave Festival - Silver"
+            }
+          ]
         }
       ]
     },
@@ -1274,6 +1325,21 @@
             {
               "text": "5 coisas que aprendi em um projeto Mobile-First Responsive Design para o Google",
               "href": "https://brasil.uxdesign.cc/5-coisas-que-aprendi-em-um-projeto-mobile-first-responsive-design-para-o-google-cb9c3223c51e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "title": "Awards",
+          "items": [
+            {
+              "text": "ABEMD - (Special Award) - Best Digital"
+            },
+            {
+              "text": "ABEMD - (Special Award) - Gold"
+            },
+            {
+              "text": "ABEMD - (Special Award) - Grand Prix"
             }
           ]
         }
