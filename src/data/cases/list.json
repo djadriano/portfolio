@@ -336,6 +336,11 @@
               "alt": ""
             },
             {
+              "media": "min-width: 768px",
+              "src": "nike-hbl/image-01-tablet.jpg",
+              "alt": ""
+            },
+            {
               "media": "min-width: 320px",
               "src": "nike-hbl/image-01-mobile.jpg",
               "alt": ""
