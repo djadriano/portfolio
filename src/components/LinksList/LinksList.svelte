@@ -26,7 +26,7 @@
         title="{item.name}"
         subtitle="{item.company}"
         color="black"
-        link="case/{item.permalink}"
+        link="{item.permalink}"
         date="{item.year}" />
     </li>
   {/each}

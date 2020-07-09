@@ -5,6 +5,7 @@
       "company": "R/GA",
       "year": "2019",
       "permalink": "agora-investimentos",
+      "logo": "nike",
       "content": [
         {
           "type": "text",
@@ -168,6 +169,7 @@
       "company": "Freelancer",
       "year": "2018",
       "permalink": "thiago-franco",
+      "logo": "google",
       "content": [
         {
           "type": "text",
@@ -297,6 +299,7 @@
       "company": "R/GA",
       "year": "2018",
       "permalink": "nike-hbl-china",
+      "logo": "mastercard",
       "content": [
         {
           "type": "title",
@@ -413,6 +416,7 @@
       "company": "R/GA",
       "year": "2017",
       "permalink": "year-with-uber",
+      "logo": "nike",
       "content": [
         {
           "type": "title",
@@ -478,6 +482,7 @@
       "company": "Freelancer",
       "year": "2017",
       "permalink": "grupo-gloria",
+      "logo": "google",
       "content": [
         {
           "type": "text",
@@ -525,6 +530,7 @@
       "company": "R/GA",
       "year": "2017",
       "permalink": "next-me",
+      "logo": "mastercard",
       "content": [
         {
           "type": "text",
@@ -740,6 +746,7 @@
       "company": "R/GA",
       "year": "2015",
       "permalink": "nike-vem-junto",
+      "logo": "nike",
       "content": [
         {
           "type": "title",
@@ -914,6 +921,7 @@
       "company": "R/GA",
       "year": "2014",
       "permalink": "mastercard-priceless-surprise",
+      "logo": "google",
       "content": [
         {
           "type": "text",
@@ -977,6 +985,7 @@
       "company": "R/GA",
       "year": "2013",
       "permalink": "samsung-galaxy-pro-note",
+      "logo": "mastercard",
       "content": [
         {
           "type": "text",
@@ -1051,6 +1060,7 @@
       "company": "R/GA",
       "year": "2013",
       "permalink": "mastercard-nao-tem-preco",
+      "logo": "nike",
       "content": [
         {
           "type": "title",
@@ -1129,6 +1139,7 @@
       "company": "R/GA",
       "year": "2013",
       "permalink": "mastercard-guia",
+      "logo": "google",
       "content": [
         {
           "type": "title",
@@ -1233,6 +1244,7 @@
       "company": "R/GA",
       "year": "2013",
       "permalink": "google-expert",
+      "logo": "mastercard",
       "content": [
         {
           "type": "text",
@@ -1293,6 +1305,7 @@
       "company": "R/GA",
       "year": "2012",
       "permalink": "google-creative-sandbox",
+      "logo": "nike",
       "content": [
         {
           "type": "text",

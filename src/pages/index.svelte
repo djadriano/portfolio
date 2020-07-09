@@ -1,23 +1,16 @@
-<style>
-  main {
-    height: 100%;
-    position: relative;
-    top: calc(-1 * var(--header-height));
-  }
-</style>
-
 <script>
+  import Main from '@components/Main/Main.svelte';
   import Intro from '@components/Intro/Intro.svelte';
   import PageTitle from '@components/PageTitle/PageTitle.svelte';
   import LinksList from '@components/LinksList/LinksList.svelte';
   import { Cases } from '@stores/stores.js';
 </script>
 
-<main>
+<Main>
   <Intro />
 
   <section>
     <PageTitle />
     <LinksList links="{$Cases}" />
   </section>
-</main>
+</Main>

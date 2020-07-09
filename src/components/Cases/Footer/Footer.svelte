@@ -16,5 +16,5 @@
     title="{name}"
     subtitle="Next project"
     color="black"
-    link="/case/{permalink}" />
+    link="{permalink}" />
 </footer>

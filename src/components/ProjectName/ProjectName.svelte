@@ -13,6 +13,7 @@
 
 <script>
   import Link from '@components/Link/Link.svelte';
+  import fadeInView from '@actions/fadeInView.js';
 
   export let title = 'Works';
   export let subtitle = null;
@@ -22,13 +23,15 @@
   $: ({ link, ...rest } = $$restProps);
 </script>
 
-<h2 class="fs fs--huge u-title color color--{color}">
+<h2
+  class="fs fs--huge u-title color color--{color} u-fade-in-view"
+  use:fadeInView>
   {#if link}
     <Link href="{link}" fontSize="huge" {...rest}>{title}</Link>
   {:else}{title}{/if}
 </h2>
 {#if subtitle}
-  <p class="fs fs--smallest">
+  <p class="fs fs--smallest u-fade-in-view" use:fadeInView>
     {subtitle}
     {#if date}
       -

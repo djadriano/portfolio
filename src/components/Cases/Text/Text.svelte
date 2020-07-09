@@ -13,10 +13,13 @@
 </style>
 
 <script>
+  import fadeInView from '@actions/fadeInView.js';
   export let content;
 </script>
 
-<p class="fs fs--small color color--gray-dark u-case-block">
+<p
+  class="fs fs--small color color--gray-dark u-case-block u-fade-in-view"
+  use:fadeInView>
   {#each content as item}
     {@html item}
     <br />

@@ -11,6 +11,7 @@
 <script>
   import Link from '@components/Link/Link.svelte';
   import Title from '@components/Cases/Title/Title.svelte';
+  import fadeInView from '@actions/fadeInView.js';
 
   export let title;
   export let items;
@@ -20,7 +21,9 @@
   <Title text="{title}" isBlock="{false}" />
   <ul class="u-reset-list">
     {#each items as item}
-      <li class="fs fs--small color color--gray-dark">
+      <li
+        class="fs fs--small color color--gray-dark u-fade-in-view"
+        use:fadeInView>
         {#if item.href}
           <Link href="{item.href}" fontSize="small" class="" target="_blank">
             {item.text}

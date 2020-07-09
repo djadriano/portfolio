@@ -17,10 +17,11 @@
 </style>
 
 <script>
+  import fadeInView from '@actions/fadeInView.js';
   export let url;
 </script>
 
-<div class="u-case-block">
+<div class="u-case-block u-fade-in-view" use:fadeInView>
   <iframe
     src="{url}"
     frameborder="0"

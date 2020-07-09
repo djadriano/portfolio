@@ -8,6 +8,7 @@ import { terser } from 'rollup-plugin-terser';
 import { routify } from '@sveltech/routify';
 import postcss from 'rollup-plugin-postcss';
 import json from '@rollup/plugin-json';
+import svgo from 'rollup-plugin-svgo';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -42,6 +43,8 @@ export default {
         '@stores': './src/stores',
         '@utils': './src/utils',
         '@data': './src/data',
+        '@actions': './src/actions',
+        '@icons': './public/images/icons',
       },
     }),
 
@@ -57,6 +60,7 @@ export default {
     }),
     commonjs(),
     json(),
+    svgo(),
 
     postcss({
       extract: 'public/build/global.css',
