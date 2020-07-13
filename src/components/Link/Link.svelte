@@ -14,8 +14,6 @@
 </style>
 
 <script>
-  import { url } from '@sveltech/routify';
-
   let className = '';
 
   export { className as class };
@@ -27,7 +25,8 @@
 </script>
 
 <a
-  href="{$url(href)}"
+  rel="prefetch"
+  {href}
   class="fs fs--{fontSize}
   {className}"
   style="--color: var(--color-{color}); --color-hover: var(--color-{colorHover})"

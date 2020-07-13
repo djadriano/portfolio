@@ -6,11 +6,22 @@
   }
 </style>
 
+<script context="module">
+  export function preload() {
+    return this.fetch(`index.json`)
+      .then(r => r.json())
+      .then(cases => {
+        return { cases };
+      });
+  }
+</script>
+
 <script>
   import Intro from '@components/Intro/Intro.svelte';
   import PageTitle from '@components/PageTitle/PageTitle.svelte';
   import LinksList from '@components/LinksList/LinksList.svelte';
-  import { Cases } from '@stores/stores.js';
+
+  export let cases;
 </script>
 
 <main>
@@ -18,6 +29,6 @@
 
   <section>
     <PageTitle />
-    <LinksList links="{$Cases}" />
+    <LinksList links="{cases}" />
   </section>
 </main>

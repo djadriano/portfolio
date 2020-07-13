@@ -4,8 +4,22 @@
   }
 </style>
 
+<script context="module">
+  export async function preload({ params }) {
+    const res = await this.fetch(`case/${params.id}.json`);
+    const data = await res.json();
+
+    if (res.status === 200) {
+      return {
+        caseData: data,
+      };
+    } else {
+      this.error(res.status, data.message);
+    }
+  }
+</script>
+
 <script>
-  import { params } from '@sveltech/routify';
   import PageTitle from '@components/PageTitle/PageTitle.svelte';
   import Title from '@components/Cases/Title/Title.svelte';
   import Text from '@components/Cases/Text/Text.svelte';
@@ -13,29 +27,18 @@
   import List from '@components/Cases/List/List.svelte';
   import Video from '@components/Cases/Video/Video.svelte';
   import Footer from '@components/Cases/Footer/Footer.svelte';
-  import { Cases } from '@stores/stores.js';
 
-  export let id;
-  export let scoped;
-
-  let caseId;
-  let nextCase;
-
-  $: {
-    id = $params.id;
-    caseId = $Cases.findIndex(item => item.permalink === id);
-    nextCase = $Cases[caseId + 1];
-  }
+  export let caseData;
 </script>
 
 <main>
   <PageTitle
-    title="{scoped.name}"
-    subtitle="{scoped.company}"
-    date="{scoped.year}" />
+    title="{caseData.name}"
+    subtitle="{caseData.company}"
+    date="{caseData.year}" />
 
   <section>
-    {#each scoped.content as item}
+    {#each caseData.content as item}
       {#if item.type === 'title'}
         <Title text="{item.text}" />
       {/if}
@@ -54,7 +57,5 @@
     {/each}
   </section>
 
-  {#if nextCase}
-    <Footer name="{nextCase.name}" permalink="{nextCase.permalink}" />
-  {/if}
+  <Footer />
 </main>

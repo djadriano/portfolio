@@ -1,98 +1,161 @@
-import svelte from 'rollup-plugin-svelte';
 import resolve from '@rollup/plugin-node-resolve';
+import replace from '@rollup/plugin-replace';
 import commonjs from '@rollup/plugin-commonjs';
-import livereload from 'rollup-plugin-livereload';
-import autoPreprocess from 'svelte-preprocess';
-import alias from '@rollup/plugin-alias';
+import svelte from 'rollup-plugin-svelte';
+import babel from '@rollup/plugin-babel';
 import { terser } from 'rollup-plugin-terser';
-import { routify } from '@sveltech/routify';
+import config from 'sapper/config/rollup.js';
+import alias from '@rollup/plugin-alias';
 import postcss from 'rollup-plugin-postcss';
 import json from '@rollup/plugin-json';
+import autoPreprocess from 'svelte-preprocess';
+import pkg from './package.json';
 
-const production = !process.env.ROLLUP_WATCH;
+const mode = process.env.NODE_ENV;
+const dev = mode === 'development';
+const legacy = !!process.env.SAPPER_LEGACY_BUILD;
+
+const onwarn = (warning, onwarn) =>
+  (warning.code === 'CIRCULAR_DEPENDENCY' &&
+    /[/\\]@sapper[/\\]/.test(warning.message)) ||
+  onwarn(warning);
+
+const preprocess = autoPreprocess({
+  scss: {
+    includePaths: ['src'],
+  },
+  postcss: {
+    plugins: [require('autoprefixer')],
+  },
+});
 
 export default {
-  input: 'src/main.js',
-  output: {
-    sourcemap: true,
-    format: 'iife',
-    name: 'app',
-    file: 'public/build/bundle.js',
+  client: {
+    input: config.client.input(),
+    output: config.client.output(),
+    plugins: [
+      replace({
+        'process.browser': true,
+        'process.env.NODE_ENV': JSON.stringify(mode),
+      }),
+      svelte({
+        dev,
+        hydratable: true,
+        emitCss: false,
+        preprocess: preprocess,
+      }),
+      resolve({
+        browser: true,
+        dedupe: ['svelte'],
+      }),
+      commonjs(),
+      json(),
+
+      alias({
+        entries: {
+          '@components': './src/components',
+          '@pages': './src/pages',
+          '@stores': './src/stores',
+          '@utils': './src/utils',
+          '@data': './src/data',
+          '@actions': './src/actions',
+          '@icons': './public/images/icons',
+        },
+      }),
+
+      postcss({
+        extract: 'static/global.css',
+        minimize: true,
+      }),
+
+      legacy &&
+        babel({
+          extensions: ['.js', '.mjs', '.html', '.svelte'],
+          babelHelpers: 'runtime',
+          exclude: ['node_modules/@babel/**'],
+          presets: [
+            [
+              '@babel/preset-env',
+              {
+                targets: '> 0.25%, not dead',
+              },
+            ],
+          ],
+          plugins: [
+            '@babel/plugin-syntax-dynamic-import',
+            [
+              '@babel/plugin-transform-runtime',
+              {
+                useESModules: true,
+              },
+            ],
+          ],
+        }),
+
+      !dev &&
+        terser({
+          module: true,
+        }),
+    ],
+
+    preserveEntrySignatures: false,
+    onwarn,
   },
-  plugins: [
-    svelte({
-      // enable run-time checks when not in production
-      dev: !production,
-      // we'll extract any component CSS out into
-      // a separate file  better for performance
-      css: css => {
-        css.write('public/build/bundle.css');
-      },
-      preprocess: autoPreprocess(),
-    }),
 
-    routify({
-      singleBuild: production,
-    }),
+  server: {
+    input: config.server.input(),
+    output: config.server.output(),
+    plugins: [
+      replace({
+        'process.browser': false,
+        'process.env.NODE_ENV': JSON.stringify(mode),
+      }),
+      svelte({
+        generate: 'ssr',
+        dev,
+        preprocess: preprocess,
+      }),
+      resolve({
+        dedupe: ['svelte'],
+      }),
+      commonjs(),
+      json(),
 
-    alias({
-      entries: {
-        '@components': './src/components',
-        '@pages': './src/pages',
-        '@stores': './src/stores',
-        '@utils': './src/utils',
-        '@data': './src/data',
-      },
-    }),
+      alias({
+        entries: {
+          '@components': './src/components',
+          '@pages': './src/pages',
+          '@stores': './src/stores',
+          '@utils': './src/utils',
+          '@data': './src/data',
+          '@actions': './src/actions',
+          '@icons': './public/images/icons',
+        },
+      }),
+    ],
+    external: Object.keys(pkg.dependencies).concat(
+      require('module').builtinModules ||
+        Object.keys(process.binding('natives'))
+    ),
 
-    // If you have external dependencies installed from
-    // npm, you'll most likely need these plugins. In
-    // some cases you'll need additional configuration 
-    // consult the documentation for details:
-    // https://github.com/rollup/plugins/tree/master/packages/commonjs
-    resolve({
-      browser: true,
-      dedupe: importee =>
-        importee === 'svelte' || importee.startsWith('svelte/'),
-    }),
-    commonjs(),
-    json(),
+    preserveEntrySignatures: 'strict',
+    onwarn,
+  },
 
-    postcss({
-      extract: 'public/build/global.css',
-      minimize: production,
-    }),
+  serviceworker: {
+    input: config.serviceworker.input(),
+    output: config.serviceworker.output(),
+    plugins: [
+      resolve(),
+      replace({
+        'process.browser': true,
+        'process.env.NODE_ENV': JSON.stringify(mode),
+      }),
+      commonjs(),
+      !dev && terser(),
+    ],
 
-    // In dev mode, call `npm run start` once
-    // the bundle has been generated
-    !production && serve(),
-
-    // Watch the `public` directory and refresh the
-    // browser on changes when not in production
-    !production && livereload('public'),
-
-    // If we're building for production (npm run build
-    // instead of npm run dev), minify
-    production && terser(),
-  ],
-  watch: {
-    clearScreen: false,
+    preserveEntrySignatures: false,
+    onwarn,
   },
 };
-
-function serve() {
-  let started = false;
-
-  return {
-    writeBundle() {
-      if (!started) {
-        started = true;
-
-        require('child_process').spawn('npm', ['run', 'start', '--', '--dev'], {
-          stdio: ['ignore', 'inherit', 'inherit'],
-          shell: true,
-        });
-      }
-    },
-  };
-}
