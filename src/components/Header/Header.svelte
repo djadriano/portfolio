@@ -10,6 +10,10 @@
     justify-content: space-between;
   }
 
+  h1 {
+    line-height: 1;
+  }
+
   ul {
     display: flex;
     margin: 0;

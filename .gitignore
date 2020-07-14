@@ -1,5 +1,8 @@
-/node_modules/
-/public/build/
-/cases-images
-
 .DS_Store
+/node_modules/
+/src/node_modules/@sapper/
+yarn-error.log
+/cypress/screenshots/
+/__sapper__/
+/_old/
+/cases-images/

@@ -5,6 +5,12 @@
       "company": "R/GA",
       "year": "2019",
       "permalink": "agora-investimentos",
+      "metatags": {
+        "title": "Àgora Investimentos",
+        "description": "Development of the Ágora investment brokerage website.",
+        "keywords": "ágora, bradesco, gatsbyjs, react",
+        "thumb": "agora/image-share.jpg"
+      },
       "content": [
         {
           "type": "text",
@@ -168,6 +174,12 @@
       "company": "Freelancer",
       "year": "2018",
       "permalink": "thiago-franco",
+      "metatags": {
+        "title": "Thiago Franco Portfolio",
+        "description": "Development of the portfolio for Thiago Franco.",
+        "keywords": "thiago franco, ux, r/ga, react, tweenmax",
+        "thumb": "thiago-franco/image-01-share.jpg"
+      },
       "content": [
         {
           "type": "text",
@@ -297,6 +309,12 @@
       "company": "R/GA",
       "year": "2018",
       "permalink": "nike-hbl-china",
+      "metatags": {
+        "title": "Nike HBL China",
+        "description": "A campaign website for Nike HBL on WeChat, Weibo, Tmall and Taobao.",
+        "keywords": "nike, hbl china, react, r/ga, wechat",
+        "thumb": "nike-hbl/image-01-share.jpg"
+      },
       "content": [
         {
           "type": "title",
@@ -413,6 +431,12 @@
       "company": "R/GA",
       "year": "2017",
       "permalink": "year-with-uber",
+      "metatags": {
+        "title": "Year with Uber",
+        "description": "Year with Uber is a story-driven experience with a modular structure that surprise and delight users.",
+        "keywords": "nike, hbl china, react, r/ga, wechat",
+        "thumb": "year-with-uber/image-share.jpg"
+      },
       "content": [
         {
           "type": "title",
@@ -478,6 +502,12 @@
       "company": "Freelancer",
       "year": "2017",
       "permalink": "grupo-gloria",
+      "metatags": {
+        "title": "Grupo Gloria",
+        "description": "Website developed for a group of communication and technology companies.",
+        "keywords": "grupo gloria, react, frontend",
+        "thumb": "grupo-gloria/image-share.jpg"
+      },
       "content": [
         {
           "type": "text",
@@ -525,6 +555,12 @@
       "company": "R/GA",
       "year": "2017",
       "permalink": "next-me",
+      "metatags": {
+        "title": "Next.me",
+        "description": "Institutional website for the digital bank Next.",
+        "keywords": "next.me, bradesco, r/ga, react",
+        "thumb": "next/image-01-share.jpg"
+      },
       "content": [
         {
           "type": "text",
@@ -740,6 +776,12 @@
       "company": "R/GA",
       "year": "2015",
       "permalink": "nike-vem-junto",
+      "metatags": {
+        "title": "Nike Vem Junto",
+        "description": "Nike Running Brazil wanted to turn running into a sport that brought people together and as consequence, get more people running.",
+        "keywords": "nike, r/ga",
+        "thumb": "nike-vem-junto/image-01-share.jpg"
+      },
       "content": [
         {
           "type": "title",
@@ -891,6 +933,12 @@
       "company": "R/GA",
       "year": "2015",
       "permalink": "google-mobile-day",
+      "metatags": {
+        "title": "Google Mobile Day",
+        "description": "Website for the event that was realized in São Paulo by Google.",
+        "keywords": "google, r/ga",
+        "thumb": "google-mobile-day/image-share.jpg"
+      },
       "content": [
         {
           "type": "text",
@@ -914,6 +962,12 @@
       "company": "R/GA",
       "year": "2014",
       "permalink": "mastercard-priceless-surprise",
+      "metatags": {
+        "title": "MasterCard Priceless Surprise",
+        "description": "The Priceless Surprises platform is a social network aggregator that fetches tweets and posts in instagram containing the hashtag #PricelessSurprises.",
+        "keywords": "mastercard, r/ga, priceless",
+        "thumb": "mastercard-priceless-surprises/image-01-share.jpg"
+      },
       "content": [
         {
           "type": "text",
@@ -977,6 +1031,12 @@
       "company": "R/GA",
       "year": "2013",
       "permalink": "samsung-galaxy-pro-note",
+      "metatags": {
+        "title": "Samgung Galaxy Pro Note",
+        "description": "A landing page for lanching Samsung new product Galaxy Note Pro",
+        "keywords": "samsung, r/ga, galaxy pro note",
+        "thumb": "samsung-galaxy-note-pro/image-01-share.jpg"
+      },
       "content": [
         {
           "type": "text",
@@ -1051,6 +1111,12 @@
       "company": "R/GA",
       "year": "2013",
       "permalink": "mastercard-nao-tem-preco",
+      "metatags": {
+        "title": "Mastercard - NaoTemPreco",
+        "description": "The MasterCard Brasil - Não Tem Preço is a platform with promotions that are offered to MasterCard card holders.",
+        "keywords": "mastercard, r/ga, priceless",
+        "thumb": "mastercard-nao-tem-preco/image-01-share.jpg"
+      },
       "content": [
         {
           "type": "title",
@@ -1129,6 +1195,12 @@
       "company": "R/GA",
       "year": "2013",
       "permalink": "mastercard-guia",
+      "metatags": {
+        "title": "MasterCard Guia Priceless Brasil",
+        "description": "Responsive platform crawling social networks for #priceless experiences across Brazil.",
+        "keywords": "mastercard, r/ga, priceless guide",
+        "thumb": "mastercard-guia/image-01-share.jpg"
+      },
       "content": [
         {
           "type": "title",
@@ -1233,6 +1305,12 @@
       "company": "R/GA",
       "year": "2013",
       "permalink": "google-expert",
+      "metatags": {
+        "title": "Google Expert",
+        "description": "The 'Expert' is a platform for research in interactive classes for the areas of media, marketing and advertising students, which takes place simultaneously in various cinemas around the country.",
+        "keywords": "google, r/ga",
+        "thumb": "google-expert/image-01-share.jpg"
+      },
       "content": [
         {
           "type": "text",
@@ -1293,6 +1371,12 @@
       "company": "R/GA",
       "year": "2012",
       "permalink": "google-creative-sandbox",
+      "metatags": {
+        "title": "Google Creative Sandbox",
+        "description": "The Google Creative Sandbox is a Google contest to encourage the development of new ideas, was launched with the theme of 'innovative ideas that use creativity and technology to improve people's lives'",
+        "keywords": "google, r/ga",
+        "thumb": "google-creative-sandbox/image-01-share.jpg"
+      },
       "content": [
         {
           "type": "text",
