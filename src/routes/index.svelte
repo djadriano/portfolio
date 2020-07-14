@@ -47,7 +47,7 @@
     experience, focused on UX, Code and Design" />
   <meta
     property="og:image"
-    content="https://akfernandes.dev/images/share-image.jpg" />
+    content="https://www.akfernandes.dev/images/share-image.jpg" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
@@ -61,7 +61,7 @@
     experience, focused on UX, Code and Design" />
   <meta
     property="twitter:image"
-    content="https://akfernandes.dev/images/share-image.jpg" />
+    content="https://www.akfernandes.dev/images/share-image.jpg" />
 </svelte:head>
 
 <main>

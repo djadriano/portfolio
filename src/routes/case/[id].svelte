@@ -56,7 +56,7 @@
   {#if caseData.metatags.thumb}
     <meta
       property="og:image"
-      content="https://akfernandes.dev/images/{caseData.metatags.thumb}" />
+      content="https://www.akfernandes.dev/images/{caseData.metatags.thumb}" />
   {/if}
 
   <!-- Twitter -->
@@ -73,7 +73,7 @@
   {#if caseData.metatags.thumb}
     <meta
       property="twitter:image"
-      content="https://akfernandes.dev/images/{caseData.metatags.thumb}" />
+      content="https://www.akfernandes.dev/images/{caseData.metatags.thumb}" />
   {/if}
 </svelte:head>
 
