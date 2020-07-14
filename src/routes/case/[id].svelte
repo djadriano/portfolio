@@ -48,7 +48,7 @@
   <meta property="og:type" content="website" />
   <meta
     property="og:url"
-    content="https://akfernandes.dev/case/{caseData.permalink}" />
+    content="https://akfernandes.dev/cases/{caseData.permalink}" />
   <meta
     property="og:title"
     content="AKF - {caseData.metatags.title} - {caseData.company} / {caseData.year}" />
@@ -63,7 +63,7 @@
   <meta property="twitter:card" content="summary_large_image" />
   <meta
     property="twitter:url"
-    content="https://akfernandes.dev/case/{caseData.permalink}" />
+    content="https://akfernandes.dev/cases/{caseData.permalink}" />
   <meta
     property="twitter:title"
     content="AKF - {caseData.metatags.title} - {caseData.company} / {caseData.year}" />
