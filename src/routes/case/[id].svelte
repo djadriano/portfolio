@@ -7,11 +7,16 @@
 <script context="module">
   export async function preload({ params }) {
     const res = await this.fetch(`case/${params.id}.json`);
+    const res2 = await this.fetch(`index.json`);
     const data = await res.json();
+    const data2 = await res2.json();
+
+    const nextCaseId = data2.findIndex(item => item.permalink === params.id);
 
     if (res.status === 200) {
       return {
         caseData: data,
+        nextCase: data2[nextCaseId + 1],
       };
     } else {
       this.error(res.status, data.message);
@@ -29,7 +34,44 @@
   import Footer from '@components/Cases/Footer/Footer.svelte';
 
   export let caseData;
+  export let nextCase;
 </script>
+
+<svelte:head>
+  <title>
+    AKF - {caseData.metatags.title} - {caseData.company} / {caseData.year}
+  </title>
+  <meta name="description" content="{caseData.metatags.description}" />
+  <meta name="keywords" content="{caseData.metatags.keywords}" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:url"
+    content="https://akfernandes.dev/case/{caseData.permalink}" />
+  <meta
+    property="og:title"
+    content="AKF - {caseData.metatags.title} - {caseData.company} / {caseData.year}" />
+  <meta property="og:description" content="{caseData.metatags.description}" />
+  {#if caseData.metatags.thumb}
+    <meta property="og:image" content="{caseData.metatags.thumb}" />
+  {/if}
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta
+    property="twitter:url"
+    content="https://akfernandes.dev/case/{caseData.permalink}" />
+  <meta
+    property="twitter:title"
+    content="AKF - {caseData.metatags.title} - {caseData.company} / {caseData.year}" />
+  <meta
+    property="twitter:description"
+    content="{caseData.metatags.description}" />
+  {#if caseData.metatags.thumb}
+    <meta property="twitter:image" content="{caseData.metatags.thumb}" />
+  {/if}
+</svelte:head>
 
 <main>
   <PageTitle
@@ -57,5 +99,7 @@
     {/each}
   </section>
 
-  <Footer />
+  {#if nextCase}
+    <Footer name="{nextCase.name}" permalink="{nextCase.permalink}" />
+  {/if}
 </main>
