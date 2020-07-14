@@ -54,7 +54,9 @@
     content="AKF - {caseData.metatags.title} - {caseData.company} / {caseData.year}" />
   <meta property="og:description" content="{caseData.metatags.description}" />
   {#if caseData.metatags.thumb}
-    <meta property="og:image" content="{caseData.metatags.thumb}" />
+    <meta
+      property="og:image"
+      content="https://akfernandes.dev/images/{caseData.metatags.thumb}" />
   {/if}
 
   <!-- Twitter -->
@@ -69,7 +71,9 @@
     property="twitter:description"
     content="{caseData.metatags.description}" />
   {#if caseData.metatags.thumb}
-    <meta property="twitter:image" content="{caseData.metatags.thumb}" />
+    <meta
+      property="twitter:image"
+      content="https://akfernandes.dev/images/{caseData.metatags.thumb}" />
   {/if}
 </svelte:head>
 
