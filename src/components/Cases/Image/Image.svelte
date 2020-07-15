@@ -51,6 +51,9 @@
     observer.observe(node);
 
     return {
+      update() {
+        observer.observe(node);
+      },
       destroy() {
         observer && observer.unobserve(node);
       },
