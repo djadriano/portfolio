@@ -6,20 +6,22 @@
 
 <script context="module">
   export async function preload({ params }) {
-    const res = await this.fetch(`case/${params.id}.json`);
-    const res2 = await this.fetch(`index.json`);
-    const data = await res.json();
-    const data2 = await res2.json();
+    const currentCase = await this.fetch(`case/${params.id}.json`);
+    const cases = await this.fetch(`index.json`);
+    const currentCaseData = await currentCase.json();
+    const casesData = await cases.json();
 
-    const nextCaseId = data2.findIndex(item => item.permalink === params.id);
+    const nextCaseId = casesData.findIndex(
+      item => item.permalink === params.id
+    );
 
-    if (res.status === 200) {
+    if (currentCase.status === 200) {
       return {
-        caseData: data,
-        nextCase: data2[nextCaseId + 1],
+        caseData: currentCaseData,
+        nextCase: casesData[nextCaseId + 1],
       };
     } else {
-      this.error(res.status, data.message);
+      this.error(currentCase.status, currentCaseData.message);
     }
   }
 </script>
